@@ -128,7 +128,7 @@ class Generator:
                 self._create_zips(addon,version)
 
             except Exception as e:
-                print("Excluding {0} for {0}".format(_path, e))
+                print("Excluding {0} for {1}".format(_path, e))
 
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u"\n</addons>\n"
