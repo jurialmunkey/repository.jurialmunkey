@@ -20,7 +20,7 @@
 </addon>
 
 <addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
-	
+
 	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
 		<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
@@ -62,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.19">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.21~alpha7">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -93,7 +93,7 @@
         <summary lang="pt_BR">Limpa, simplista, elegante, leve.</summary>
         <summary lang="ro">Curat, minimalist, elegant, simplu, ușor</summary>
         <summary lang="ru">Опрятный, минималистичный, элегантный, простой, светлый.</summary>
-        
+
         <description lang="de">Klar, minimalistisch, elegant, einfach, leicht</description>
         <description lang="en">Clean, minimal, elegant, simple, light.</description>
         <description lang="en_AU">Clean, minimal, elegant, simple, light.</description>
