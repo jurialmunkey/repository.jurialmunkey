@@ -62,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.29~alpha8">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.31~alpha7">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -94,21 +94,7 @@
         <summary lang="ro">Curat, minimalist, elegant, simplu, ușor</summary>
         <summary lang="ru">Опрятный, минималистичный, элегантный, простой, светлый.</summary>
 
-        <description lang="de">Klar, minimalistisch, elegant, einfach, leicht</description>
-        <description lang="en">Clean, minimal, elegant, simple, light.</description>
-        <description lang="en_AU">Clean, minimal, elegant, simple, light.</description>
-        <description lang="en_US">Clean, minimal, elegant, simple, light.</description>
-        <description lang="es">Limpio, minimalista, elegante, simple, ligero.</description>
-        <description lang="fr">Clair, minimaliste, élégant, simple et léger.</description>
-        <description lang="fr_CA">Net, minimal, élégant, simple, léger.</description>
-        <description lang="it">Pulita, minimale, elegante, semplice, leggera.</description>
-        <description lang="lt">Švari, minimali, elegantiška, paprasta, lengva.</description>
-        <description lang="nl">Schoon, minimaal, elegant, simpel, licht.</description>
-        <description lang="no">Rent, minimalt, elegant, enkelt, lett.</description>
-        <description lang="pl">Prosta, minimalista, elegancka i lekka</description>
-        <description lang="pt_BR">Limpa, simplista, elegante, leve.</description>
-        <description lang="ro">Curat, minimalist, elegant, simplu, ușor</description>
-        <description lang="ru">Опрятный, минималистичный, элегантный, простой, светлый.</description>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
