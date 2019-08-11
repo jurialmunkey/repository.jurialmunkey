@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="0.1.1"
+version="0.1.7"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
-  <import addon="script.module.simplecache" version="1.0.14" />
+  <import addon="script.module.simplecache" version="1.0.11" />
   <import addon="script.module.requests" version="2.9.1"/>
 </requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
+<extension point="xbmc.python.pluginsource" library="plugin.py">
   <provides>video</provides>
 </extension>
+<extension point="xbmc.python.script" library="script.py" />
 <extension point="xbmc.addon.metadata">
   <summary lang="en">TheMovieDb Helper</summary>
   <description lang="en_GB">TheMovieDb Helper provides skinners a number of ways to access TheMovieDb API</description>
@@ -87,12 +88,13 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.41-alpha6">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.42-alpha8">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="plugin.video.themoviedb.helper" version="0.1.7" />
         <import addon="resource.images.studios.white" version="0.0.10" />
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
         <import addon="resource.images.weathericons.outline-hd" version="0.0.1" />
