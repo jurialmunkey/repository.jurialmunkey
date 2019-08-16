@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="0.1.7"
+version="0.2.0"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -88,13 +88,13 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.42-alpha8">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.42-alpha10">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
-        <import addon="plugin.video.themoviedb.helper" version="0.1.7" />
+        <import addon="plugin.video.themoviedb.helper" version="0.1.9" />
         <import addon="resource.images.studios.white" version="0.0.10" />
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
         <import addon="resource.images.weathericons.outline-hd" version="0.0.1" />
