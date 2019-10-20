@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="1.0.4"
+version="1.0.5"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -17,12 +17,14 @@ provider-name="jurialmunkey">
   <summary lang="en_GB">TheMovieDb Helper</summary>
   <description lang="en_GB">TheMovieDb Helper provides skinners a number of ways to access TheMovieDb API</description>
   <disclaimer lang="en_GB">Provided by TheMovieDb. Please make sure you have your own API key.</disclaimer>
+  <license>GPL-3.0</license>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
+  <news>1.0.5 - Fix for python text encoding/decoding issues in both PY2 and PY3</news>
 </extension>
 </addon>
 
@@ -88,7 +90,7 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.52-alpha4">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.53-alpha3">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
