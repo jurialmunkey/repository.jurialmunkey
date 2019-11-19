@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="1.0.6"
+version="1.0.11"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="script.module.trakt" version="2.12.0"/>
   <import addon="script.module.simplecache" version="1.0.11" />
   <import addon="script.module.requests" version="2.9.1"/>
 </requires>
@@ -14,9 +15,9 @@ provider-name="jurialmunkey">
 </extension>
 <extension point="xbmc.python.script" library="script.py" />
 <extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">TheMovieDb Helper</summary>
-  <description lang="en_GB">TheMovieDb Helper provides skinners a number of ways to access TheMovieDb API</description>
-  <disclaimer lang="en_GB">Provided by TheMovieDb. Please make sure you have your own API key.</disclaimer>
+  <summary lang="en_GB">TheMovieDb Helper - Now With Trakt Support!</summary>
+  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb and Trakt.</description>
+  <disclaimer lang="en_GB">Provided by TheMovieDb and Trakt.</disclaimer>
   <license>GPL-3.0</license>
   <assets>
     <icon>icon.png</icon>
@@ -24,7 +25,9 @@ provider-name="jurialmunkey">
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
-  <news>1.0.6 - Fixes MPAA Rating Prefix[CR]1.0.5 - Fixes python text encoding/decoding issues</news>
+  <news>1.0.11 - Add pagination to trakt lists[CR]1.0.10 - Add some
+additional lists from Trakt[CR]1.0.9 - Add
+genres for TMDb[CR]1.0.8 - Some small fixes for enditems[CR]1.0.7 - Trakt support[CR]1.0.6 - Fixes MPAA Rating Prefix[CR]1.0.5 - Fixes python text encoding/decoding issues</news>
 </extension>
 </addon>
 
@@ -90,7 +93,7 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.54-alpha4">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.54-alpha6">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
