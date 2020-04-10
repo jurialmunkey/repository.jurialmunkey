@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="2.3.3"
+version="2.3.6"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -53,7 +53,7 @@ provider-name="jurialmunkey">
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
-  <news>2.3.3 - Add params to Container.Property(Param.{})[CR]2.3.2 - Add ListItem.Property(item.info) and ListItem.Property(item.type) [CR] 2.3.1 - Add ListItem.Property(container.info) and ListItem.Property(container.type)[CR]2.3.0 - New Awards properties</news>
+  <news>2.3.6 - Better ID matching for calendar and lists[CR]2.3.5 - Remove TMDb Rate Limiter since API has now removed rate limits[CR]2.3.4 - Fix encoding error[CR]2.3.3 - Add params to Container.Property(Param.{})[CR]2.3.2 - Add ListItem.Property(item.info) and ListItem.Property(item.type) [CR] 2.3.1 - Add ListItem.Property(container.info) and ListItem.Property(container.type)[CR]2.3.0 - New Awards properties</news>
 </extension>
 </addon>
 
@@ -139,7 +139,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.1.91">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.1.98">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -174,7 +174,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.60-alpha1">
+<addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.61">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
