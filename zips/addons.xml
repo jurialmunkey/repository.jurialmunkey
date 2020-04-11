@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="2.3.6"
+version="2.4.0"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -26,19 +26,23 @@ provider-name="jurialmunkey">
     </item>
     <item library="context-watchlist.py">
       <label>Add/Remove from Trakt Watchlist</label>
-      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.themoviedb.helper/) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+      <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
     </item>
     <item library="context-history.py">
       <label>Add/Remove from Trakt History</label>
-      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.themoviedb.helper/) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+      <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
     </item>
     <item library="context-collection.py">
       <label>Add/Remove from Trakt Collection</label>
-      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.themoviedb.helper/) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+      <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
     </item>
     <item library="context-library.py">
       <label>Add to Kodi Library</label>
-      <visible>String.StartsWith(ListItem.path,plugin://plugin.video.themoviedb.helper/) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season)]</visible>
+      <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season)]</visible>
+    </item>
+    <item library="context-library-userlist.py">
+      <label>Add to Kodi Library</label>
+      <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + String.IsEqual(ListItem.Property(Item.Info),trakt_userlist)</visible>
     </item>
   </menu>
 </extension>
@@ -53,7 +57,7 @@ provider-name="jurialmunkey">
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
-  <news>2.3.6 - Better ID matching for calendar and lists[CR]2.3.5 - Remove TMDb Rate Limiter since API has now removed rate limits[CR]2.3.4 - Fix encoding error[CR]2.3.3 - Add params to Container.Property(Param.{})[CR]2.3.2 - Add ListItem.Property(item.info) and ListItem.Property(item.type) [CR] 2.3.1 - Add ListItem.Property(container.info) and ListItem.Property(container.type)[CR]2.3.0 - New Awards properties</news>
+  <news>2.4.0 - Add context menu option to add complete Trakt user list to library[CR]2.3.6 - Better ID matching for calendar and lists[CR]2.3.5 - Remove TMDb Rate Limiter since API has now removed rate limits[CR]2.3.4 - Fix encoding error[CR]2.3.3 - Add params to Container.Property(Param.{})[CR]2.3.2 - Add ListItem.Property(item.info) and ListItem.Property(item.type) [CR] 2.3.1 - Add ListItem.Property(container.info) and ListItem.Property(container.type)[CR]2.3.0 - New Awards properties</news>
 </extension>
 </addon>
 
@@ -139,7 +143,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.1.98">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.2.1">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
