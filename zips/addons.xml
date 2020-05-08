@@ -5,7 +5,7 @@ version="2.4.58"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
-  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.simplecache" version="1.0.11" />
   <import addon="script.module.requests" version="2.9.1"/>
   <import addon="script.module.pil" version="1.1.7"/>
@@ -17,45 +17,45 @@ provider-name="jurialmunkey">
 <extension point="xbmc.python.script" library="script.py" />
 <extension point="kodi.context.item">
   <menu id="kodi.core.main">
-    <item library="context.py" args="play">
+    <item library="context-play.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32146]</label>
       <visible>[String.IsEqual(ListItem.dbtype,episode) + !String.IsEmpty(ListItem.Property(tvshow.tmdb_id)) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)] | [String.IsEqual(ListItem.dbtype,movie) + !String.IsEmpty(ListItem.Property(tmdb_id))] </visible>
     </item>
-    <item library="context.py" args="open">
+    <item library="context-open.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32147]</label>
       <visible>String.IsEqual(ListItem.dbtype,episode) + !String.IsEmpty(ListItem.Property(tvshow.tmdb_id))</visible>
     </item>
     <menu>
       <label>$ADDON[plugin.video.themoviedb.helper 32145]</label>
-      <item library="context.py" args="watchlist">
+      <item library="context-watchlist.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32148]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
       </item>
-      <item library="context.py" args="history">
+      <item library="context-history.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32149]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
       </item>
-      <item library="context.py" args="collection">
+      <item library="context-collection.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32150]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
       </item>
-      <item library="context.py" args="library">
+      <item library="context-library.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32151]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season)]</visible>
       </item>
-      <item library="context.py" args="library_userlist">
+      <item library="context-library-userlist.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32151]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + String.IsEqual(ListItem.Property(Item.Info),trakt_userlist)</visible>
       </item>
-      <item library="context.py" args="add_to_userlist">
+      <item library="context-addtouserlist.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32140]</label>
         <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)] + [!String.IsEmpty(ListItem.Property(tmdb_id)) | !String.IsEmpty(ListItem.DBID)]</visible>
       </item>
-      <item library="context.py" args="remove_from_userlist">
+      <item library="context-removefromuserlist.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32152]</label>
         <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.TraktIsAuth)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.TraktUserSlug)) + !String.IsEmpty(ListItem.Property(Container.User_Slug)) + !String.IsEmpty(ListItem.Property(Container.List_Slug)) + String.IsEqual(Window(Home).Property(TMDbHelper.TraktUserSlug),ListItem.Property(Container.User_Slug))</visible>
       </item>
-      <item library="context.py" args="refresh_item">
+      <item library="context-refresh-item.py">
         <label>$ADDON[plugin.video.themoviedb.helper 32153]</label>
         <visible>!String.IsEmpty(ListItem.Property(Container.Info)) + !String.IsEmpty(ListItem.Property(tmdb_id)) + [String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow)]</visible>
       </item>
