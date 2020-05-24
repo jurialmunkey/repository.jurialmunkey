@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="0.0.6"
+version="0.1.1"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -16,6 +16,6 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>0.0.6 - Fix reload loop[CR]0.0.5 - Build parent var and add {id} and {position} format dictionary[CR]0.0.4 - Fix for len bug reloading[CR]0.0.2 - Get folders from addon.xml if no folder specified[CR]0.0.1 - Initial Release</news>
+  <news>More updates to viewmode customisation</news>
 </extension>
 </addon>
