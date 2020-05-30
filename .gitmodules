@@ -1,0 +1,18 @@
+[submodule "skin.arctic.zephyr.2"]
+	path = skin.arctic.zephyr.2
+	url = https://github.com/jurialmunkey/skin.arctic.zephyr.2
+[submodule "skin.arctic.horizon"]
+	path = skin.arctic.horizon
+	url = https://github.com/jurialmunkey/skin.arctic.horizon
+[submodule "plugin.video.themoviedb.helper"]
+	path = plugin.video.themoviedb.helper
+	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+[submodule "script.skinvariables"]
+	path = script.skinvariables
+	url = https://github.com/jurialmunkey/script.skinvariables
+[submodule "resource.images.moviegenreicons.horizon"]
+	path = resource.images.moviegenreicons.horizon
+	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
+[submodule "screensaver.arctic.mirage"]
+	path = screensaver.arctic.mirage
+	url = https://github.com/drinfernoo/screensaver.arctic.mirage
