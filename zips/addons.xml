@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="2.4.77"
+version="2.4.79"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -165,7 +165,7 @@ provider-name="jurialmunkey">
 </addon>
 
 <addon id="script.skinvariables"
-version="0.1.1"
+version="0.1.4"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -181,15 +181,15 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>More updates to viewmode customisation</news>
+  <news>Use BG progress instead of Busy for viewtypes building</news>
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.2.72">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.2.76">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
-        <import addon="script.skinvariables" version="0.1.0" />
+        <import addon="script.skinvariables" version="0.1.2" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="plugin.video.themoviedb.helper" version="2.4.64" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
