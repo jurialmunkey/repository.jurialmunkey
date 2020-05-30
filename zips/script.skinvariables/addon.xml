@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="0.1.4"
+version="0.1.5"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -16,6 +16,6 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Use BG progress instead of Busy for viewtypes building</news>
+  <news>Add icons for viewtypes</news>
 </extension>
 </addon>
