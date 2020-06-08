@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="2.4.83"
+version="3.0.1"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -78,7 +78,7 @@ provider-name="jurialmunkey">
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
-  <news>Allow keyboard input in players</news>
+  <news>Add details ratings and artwork lookups for videoplayer</news>
 </extension>
 </addon>
 
@@ -165,7 +165,7 @@ provider-name="jurialmunkey">
 </addon>
 
 <addon id="script.skinvariables"
-version="0.1.6"
+version="0.1.7"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -181,11 +181,11 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Add icons for viewtypes</news>
+  <news>New method of building skinvariables using xml rather than json</news>
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.2.84">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.2.88">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
