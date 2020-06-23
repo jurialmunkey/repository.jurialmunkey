@@ -16,3 +16,6 @@
 [submodule "screensaver.arctic.mirage"]
 	path = screensaver.arctic.mirage
 	url = https://github.com/drinfernoo/screensaver.arctic.mirage
+[submodule "skin.aura"]
+	path = skin.aura
+	url = https://github.com/jurialmunkey/skin.aura
