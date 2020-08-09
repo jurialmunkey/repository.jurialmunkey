@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="0.2.0"
+version="0.2.1"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -16,6 +16,6 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>0.2.0 - Allow localization of viewtype names</news>
+  <news>0.2.1 - Improve variable build speed</news>
 </extension>
 </addon>
