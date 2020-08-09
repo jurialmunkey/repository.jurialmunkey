@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="3.3.6"
+version="3.3.10"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -164,7 +164,7 @@ provider-name="jurialmunkey">
 </addon>
 
 <addon id="script.skinvariables"
-version="0.2.0"
+version="0.2.1"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -180,11 +180,11 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>0.2.0 - Allow localization of viewtype names</news>
+  <news>0.2.1 - Improve variable build speed</news>
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.3.1">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.3.5">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
