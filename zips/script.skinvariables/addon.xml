@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="0.2.1"
+version="0.2.2"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
