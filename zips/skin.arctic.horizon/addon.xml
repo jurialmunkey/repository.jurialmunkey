@@ -1,8 +1,8 @@
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.4.1">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.4.3">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
-        <import addon="script.skinvariables" version="0.1.5" />
+        <import addon="script.skinvariables" version="0.2.2" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="plugin.video.themoviedb.helper" version="3.3.1" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
