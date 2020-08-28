@@ -19,3 +19,6 @@
 [submodule "skin.aura"]
 	path = skin.aura
 	url = https://github.com/jurialmunkey/skin.aura
+[submodule "resource.images.arctic.waves"]
+	path = resource.images.arctic.waves
+	url = https://github.com/drinfernoo/resource.images.arctic.waves
