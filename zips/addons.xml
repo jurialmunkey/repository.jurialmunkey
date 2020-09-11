@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="plugin.video.themoviedb.helper"
-version="3.3.17"
+version="3.3.18"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -210,7 +210,7 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.43">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.44">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -230,7 +230,9 @@ provider-name="jurialmunkey">
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Minimal. Simple.</summary>
+        <summary lang="es">Mínimo. Simple.</summary>
         <description lang="en">Arctic Horizon is a minimalistic skin with an emphasis on simplicity.</description>
+        <description lang="es">Arctic Horizon es un skin minimalista con énfasis en la simplicidad.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
