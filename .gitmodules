@@ -22,3 +22,6 @@
 [submodule "resource.images.arctic.waves"]
 	path = resource.images.arctic.waves
 	url = https://github.com/drinfernoo/resource.images.arctic.waves
+[submodule "context.themoviedb.helper"]
+	path = context.themoviedb.helper
+	url = https://github.com/jurialmunkey/context.themoviedb.helper
