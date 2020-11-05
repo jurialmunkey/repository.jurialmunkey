@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.themoviedb.helper" version="1.0.1" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+<addon id="context.themoviedb.helper" version="1.0.2" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="plugin.video.themoviedb.helper" version="4.0.16" />
@@ -12,6 +12,10 @@
                 <item library="context-playusing.py">
                     <label>Select player</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
+                </item>
+                <item library="context-synctrakt.py">
+                    <label>Trakt options</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
                 </item>
             </menu>
         </menu>
@@ -34,7 +38,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.0.27"
+version="4.0.34"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
