@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.themoviedb.helper" version="1.0.2" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+<addon id="context.themoviedb.helper" version="1.0.3" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
-        <import addon="plugin.video.themoviedb.helper" version="4.0.16" />
+        <import addon="plugin.video.themoviedb.helper" version="4.0.68" />
     </requires>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
@@ -13,9 +13,21 @@
                     <label>Select player</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
                 </item>
-                <item library="context-synctrakt.py">
+                <item library="context-related.py">
+                    <label>Browse lists</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
+                </item>
+                <item library="context-trakt.py">
                     <label>Trakt options</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
+                </item>
+                <item library="context-refresh.py">
+                    <label>Refresh details</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
+                </item>
+                <item library="context-artwork.py">
+                    <label>Manage artwork</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
                 </item>
             </menu>
         </menu>
@@ -38,7 +50,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.0.65"
+version="4.0.75"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
