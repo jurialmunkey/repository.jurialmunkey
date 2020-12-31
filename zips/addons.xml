@@ -11,23 +11,23 @@
                 <label>TMDbHelper Options</label>
                 <item library="context-playusing.py">
                     <label>Select player</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-related.py">
                     <label>Browse lists</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-trakt.py">
                     <label>Trakt options</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-refresh.py">
                     <label>Refresh details</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-artwork.py">
                     <label>Manage artwork</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
             </menu>
         </menu>
@@ -50,7 +50,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.0.77"
+version="4.1.5"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -244,13 +244,13 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.52">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.55">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.skinvariables" version="0.2.3" />
         <import addon="script.image.resource.select" version="0.0.5" />
-        <import addon="plugin.video.themoviedb.helper" version="4.0.10" />
+        <import addon="plugin.video.themoviedb.helper" version="4.0.79" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
         <import addon="resource.images.studios.white" version="0.0.10" />
         <import addon="resource.images.studios.coloured" version="0.0.19" />
