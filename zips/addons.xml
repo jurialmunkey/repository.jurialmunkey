@@ -50,12 +50,11 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.1.5"
+version="4.2.10"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
-  <import addon="script.module.simplecache" version="1.0.11" />
   <import addon="script.module.requests" version="2.9.1"/>
   <import addon="script.module.pil" version="1.1.7"/>
 </requires>
@@ -224,7 +223,7 @@ provider-name="jurialmunkey">
 </addon>
 
 <addon id="script.skinvariables"
-version="0.2.4"
+version="0.2.5"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -244,13 +243,13 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.55">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.57">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.skinvariables" version="0.2.3" />
         <import addon="script.image.resource.select" version="0.0.5" />
-        <import addon="plugin.video.themoviedb.helper" version="4.0.79" />
+        <import addon="plugin.video.themoviedb.helper" version="4.2.3" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
         <import addon="resource.images.studios.white" version="0.0.10" />
         <import addon="resource.images.studios.coloured" version="0.0.19" />
