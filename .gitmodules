@@ -1,27 +1,45 @@
-[submodule "skin.arctic.zephyr.2"]
-	path = skin.arctic.zephyr.2
-	url = https://github.com/jurialmunkey/skin.arctic.zephyr.2
-[submodule "skin.arctic.horizon"]
-	path = skin.arctic.horizon
-	url = https://github.com/jurialmunkey/skin.arctic.horizon
-[submodule "plugin.video.themoviedb.helper"]
-	path = plugin.video.themoviedb.helper
+[submodule "leia/plugin.video.themoviedb.helper"]
+	path = leia/plugin.video.themoviedb.helper
 	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
-[submodule "script.skinvariables"]
-	path = script.skinvariables
+[submodule "matrix/plugin.video.themoviedb.helper"]
+	path = matrix/plugin.video.themoviedb.helper
+	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+[submodule "leia/skin.arctic.horizon"]
+	path = leia/skin.arctic.horizon
+	url = https://github.com/jurialmunkey/skin.arctic.horizon
+[submodule "leia/script.skinvariables"]
+	path = leia/script.skinvariables
 	url = https://github.com/jurialmunkey/script.skinvariables
-[submodule "resource.images.moviegenreicons.horizon"]
-	path = resource.images.moviegenreicons.horizon
-	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
-[submodule "screensaver.arctic.mirage"]
-	path = screensaver.arctic.mirage
-	url = https://github.com/drinfernoo/screensaver.arctic.mirage
-[submodule "skin.aura"]
-	path = skin.aura
+[submodule "matrix/script.skinvariables"]
+	path = matrix/script.skinvariables
+	url = https://github.com/jurialmunkey/script.skinvariables
+[submodule "leia/skin.aura"]
+	path = leia/skin.aura
 	url = https://github.com/jurialmunkey/skin.aura
-[submodule "resource.images.arctic.waves"]
-	path = resource.images.arctic.waves
-	url = https://github.com/drinfernoo/resource.images.arctic.waves
-[submodule "context.themoviedb.helper"]
-	path = context.themoviedb.helper
+[submodule "leia/context.themoviedb.helper"]
+	path = leia/context.themoviedb.helper
 	url = https://github.com/jurialmunkey/context.themoviedb.helper
+[submodule "matrix/context.themoviedb.helper"]
+	path = matrix/context.themoviedb.helper
+	url = https://github.com/jurialmunkey/context.themoviedb.helper
+[submodule "leia/skin.arctic.zephyr.2"]
+	path = leia/skin.arctic.zephyr.2
+	url = https://github.com/jurialmunkey/skin.arctic.zephyr.2
+[submodule "leia/resource.images.arctic.waves"]
+	path = leia/resource.images.arctic.waves
+	url = https://github.com/drinfernoo/resource.images.arctic.waves
+[submodule "matrix/resource.images.arctic.waves"]
+	path = matrix/resource.images.arctic.waves
+	url = https://github.com/drinfernoo/resource.images.arctic.waves
+[submodule "leia/screensaver.arctic.mirage"]
+	path = leia/screensaver.arctic.mirage
+	url = https://github.com/drinfernoo/screensaver.arctic.mirage
+[submodule "matrix/screensaver.arctic.mirage"]
+	path = matrix/screensaver.arctic.mirage
+	url = https://github.com/drinfernoo/screensaver.arctic.mirage
+[submodule "leia/resource.images.moviegenreicons.horizon"]
+	path = leia/resource.images.moviegenreicons.horizon
+	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
+[submodule "matrix/resource.images.moviegenreicons.horizon"]
+	path = matrix/resource.images.moviegenreicons.horizon
+	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon

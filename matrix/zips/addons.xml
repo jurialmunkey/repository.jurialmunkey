@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="context.themoviedb.helper" version="1.0.3" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="4.0.68" />
+    </requires>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <menu>
+                <label>TMDbHelper Options</label>
+                <item library="context-playusing.py">
+                    <label>Select player</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                </item>
+                <item library="context-related.py">
+                    <label>Browse lists</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                </item>
+                <item library="context-trakt.py">
+                    <label>Trakt options</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                </item>
+                <item library="context-refresh.py">
+                    <label>Refresh details</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                </item>
+                <item library="context-artwork.py">
+                    <label>Manage artwork</label>
+                    <visible>[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                </item>
+            </menu>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Additional context menu items for TMDbHelper</summary>
+        <description lang="en">Adds additional TMDbHelper context menu items
+        </description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+        <source></source>
+        <disclaimer lang="en"></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.themoviedb.helper"
+version="4.2.10"
+name="TheMovieDb Helper"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.9.1"/>
+  <import addon="script.module.pil" version="1.1.7"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="plugin.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.service" library="service.py" />
+<extension point="kodi.context.item">
+  <menu id="kodi.core.main">
+    <item library="context-playusing.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
+    </item>
+    <item library="context-related.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
+    </item>
+    <item library="context-addlibrary.py">
+      <label>$LOCALIZE[20444]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary))</visible>
+    </item>
+    <item library="context-trakt.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
+    </item>
+    <item library="context-refresh.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
+    </item>
+    <item library="context-artwork.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
+    </item>
+    <item library="context-sorting.py">
+      <label>$ADDON[plugin.video.themoviedb.helper 32309]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.sorting))</visible>
+    </item>
+  </menu>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">TheMovieDb Helper - Now With Trakt Support!</summary>
+  <summary lang="es_ES">TheMovieDb Helper - ¡Ahora con soporte para Trakt!</summary>
+  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb and Trakt.</description>
+  <description lang="es_ES">TheMovieDb Helper proporciona detalles sobre películas, programas de televisión y actores de TMDb. Los usuarios pueden acceder a una variedad de listas desde TMDb y Trakt.</description>
+  <disclaimer lang="en_GB">Provided by TheMovieDb and Trakt.</disclaimer>
+  <disclaimer lang="es_ES">Proporcionado por TheMovieDb y Trakt</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshot-01.jpg</screenshot>
+    <screenshot>resources/screenshot-02.jpg</screenshot>
+  </assets>
+  <news>Add some additional dbid checking based on title/year combo</news>
+</extension>
+</addon>
+
+<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.0" provider-name="jurialmunkey">
+    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+        <dir minversion="18.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
+		</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>jurialmunkey Alpha Repository</summary>
+        <description>A repository for alpha releases of jurialmunkey's skins.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.1" provider-name="drinfernoo">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds"/>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Background loading animation for Arctic Horizon.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>Apache-2.0</license>
+        <forum></forum>
+        <website>https://www.github.com/drinfernoo</website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Horizon Movie Genre Icons</summary>
+		<description lang="en">Movie Genre Icons for Horizon skin</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.6" provider-name="drinfernoo">
+    <requires>
+        <import addon="skin.arctic.horizon" version="0.1.8"/>
+    </requires>
+
+    <extension point="xbmc.ui.screensaver" library="default.py"/>
+    <extension point="xbmc.python.script" library="script.py"/>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Arctic Mirage</summary>
+        <description lang="en">An Arctic-styled screensaver.</description>
+        <news>1.6 - Add string translations[CR] - Allow install on Matrix[CR] - Remove unused window[CR]1.5 - Fix typo in description[CR]1.4 - Add Arctic Horizon as a dependency[CR]1.3 - Fix hanging on exit[CR]1.2 - Add addon artwork[CR]1.1 - Added widget label setting[CR]1.0 - Initial release</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.skinvariables"
+version="0.2.5"
+name="Skin Variables"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
+  <description lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</description>
+  <disclaimer lang="en_GB">For skinners</disclaimer>
+  <license>GPL-3.0</license>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>0.2.1 - Improve variable build speed</news>
+</extension>
+</addon>
+</addons>
