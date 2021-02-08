@@ -50,7 +50,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.2.11"
+version="4.2.15"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
