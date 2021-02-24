@@ -43,3 +43,6 @@
 [submodule "matrix/resource.images.moviegenreicons.horizon"]
 	path = matrix/resource.images.moviegenreicons.horizon
 	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
+[submodule "matrix/skin.arctic.horizon"]
+	path = matrix/skin.arctic.horizon
+	url = https://github.com/jurialmunkey/skin.arctic.horizon
