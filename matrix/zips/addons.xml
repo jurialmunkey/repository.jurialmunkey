@@ -50,7 +50,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.2.22"
+version="4.2.23"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -217,7 +217,7 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.62">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.64">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
