@@ -50,7 +50,7 @@
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="4.3.0"
+version="4.3.1"
 name="TheMovieDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -208,7 +208,7 @@ provider-name="jurialmunkey">
   <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
   <description lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</description>
   <disclaimer lang="en_GB">For skinners</disclaimer>
-  <license>GPL-3.0</license>
+  <license>GPL-3.0-or-later</license>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
