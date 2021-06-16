@@ -77,19 +77,18 @@ class Generator:
         """
         Creates a zip file in the zips directory for the given addon.
         """
-        addon_folder = os.path.join(self.zips_path, addon_id)
-        if not os.path.exists(addon_folder):
-            os.makedirs(addon_folder)
+        addon_folder = os.path.join(self.release_path, addon_id)
+        zip_folder = os.path.join(self.zips_path, addon_id)
+        if not os.path.exists(zip_folder):
+            os.makedirs(zip_folder)
 
-        final_zip = os.path.join(
-            self.zips_path, addon_id, "{0}-{1}.zip".format(addon_id, version)
-        )
+        final_zip = os.path.join(zip_folder, "{0}-{1}.zip".format(addon_id, version))
         if not os.path.exists(final_zip):
             print("CREATING ZIP FOR: {0} - version={1}".format(addon_id, version))
             zip = zipfile.ZipFile(final_zip, "w", compression=zipfile.ZIP_DEFLATED)
-            root_len = len(os.path.dirname(os.path.abspath(addon_id)))
+            root_len = len(os.path.dirname(os.path.abspath(addon_folder)))
 
-            for root, dirs, files in os.walk(addon_id):
+            for root, dirs, files in os.walk(addon_folder):
                 # remove any unneeded artifacts
                 for i in IGNORE:
                     if i in dirs:
@@ -144,7 +143,7 @@ class Generator:
         """
         Generates a zip for each found addon, and updates the addons.xml file accordingly.
         """
-        addons_xml = u'<?xml version="1.0" encoding="UTF-8"?>\n<addons>\n'
+        addons_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<addons>\n'
 
         folders = [
             i
@@ -179,7 +178,7 @@ class Generator:
                 print("Excluding {0}: {1}".format(_path, e))
 
         # clean and add closing tag
-        addons_xml = addons_xml.strip() + u"\n</addons>\n"
+        addons_xml = addons_xml.strip() + "\n</addons>\n"
         self._save_file(
             addons_xml.encode("utf-8"),
             file=os.path.join(self.zips_path, "addons.xml"),
