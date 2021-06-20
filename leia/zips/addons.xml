@@ -170,7 +170,7 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-<addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.1" provider-name="drinfernoo">
+<addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.2" provider-name="drinfernoo">
     <requires>
         <import addon="kodi.resource" version="1.0.0"/>
     </requires>
@@ -190,8 +190,7 @@ provider-name="jurialmunkey">
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>resources/31.jpg</icon>
         </assets>
     </extension>
 </addon>
