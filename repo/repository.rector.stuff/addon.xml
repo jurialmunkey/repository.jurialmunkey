@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Rector Repository">
+		<dir maxversion="18.9.0">
+			<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/</datadir>
+		</dir>
+		<dir minversion="18.9.700">
+			<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A little place for my stuff.</summary>
+		<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+		<platform>all</platform>
+		<disclaimer />
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>

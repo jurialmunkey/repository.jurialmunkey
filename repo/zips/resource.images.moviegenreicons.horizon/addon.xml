@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Horizon Movie Genre Icons</summary>
+		<description lang="en">Movie Genre Icons for Horizon skin</description>
+		<platform>all</platform>
+	</extension>
+</addon>

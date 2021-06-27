@@ -25,23 +25,14 @@
 [submodule "leia/skin.arctic.zephyr.2"]
 	path = leia/skin.arctic.zephyr.2
 	url = https://github.com/jurialmunkey/skin.arctic.zephyr.2
-[submodule "leia/resource.images.arctic.waves"]
-	path = leia/resource.images.arctic.waves
+[submodule "repo/resource.images.arctic.waves"]
+	path = repo/resource.images.arctic.waves
 	url = https://github.com/drinfernoo/resource.images.arctic.waves
-[submodule "matrix/resource.images.arctic.waves"]
-	path = matrix/resource.images.arctic.waves
-	url = https://github.com/drinfernoo/resource.images.arctic.waves
-[submodule "leia/screensaver.arctic.mirage"]
-	path = leia/screensaver.arctic.mirage
+[submodule "repo/screensaver.arctic.mirage"]
+	path = repo/screensaver.arctic.mirage
 	url = https://github.com/drinfernoo/screensaver.arctic.mirage
-[submodule "matrix/screensaver.arctic.mirage"]
-	path = matrix/screensaver.arctic.mirage
-	url = https://github.com/drinfernoo/screensaver.arctic.mirage
-[submodule "leia/resource.images.moviegenreicons.horizon"]
-	path = leia/resource.images.moviegenreicons.horizon
-	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
-[submodule "matrix/resource.images.moviegenreicons.horizon"]
-	path = matrix/resource.images.moviegenreicons.horizon
+[submodule "repo/resource.images.moviegenreicons.horizon"]
+	path = repo/resource.images.moviegenreicons.horizon
 	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
 [submodule "matrix/skin.arctic.horizon"]
 	path = matrix/skin.arctic.horizon
