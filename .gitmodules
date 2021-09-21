@@ -37,6 +37,9 @@
 [submodule "matrix/skin.arctic.horizon"]
 	path = matrix/skin.arctic.horizon
 	url = https://github.com/jurialmunkey/skin.arctic.horizon
+[submodule "matrix/skin.eminence.2"]
+	path = matrix/skin.eminence.2
+	url = https://github.com/jurialmunkey/skin.eminence.2
 [submodule "leia/skin.eminence.2"]
 	path = leia/skin.eminence.2
 	url = https://github.com/jurialmunkey/skin.eminence.2
