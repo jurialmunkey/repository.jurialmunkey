@@ -1,0 +1,40 @@
+<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="3.0.5">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0" />
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="script.skin.helper.service" version="1.0.0" />
+        <import addon="script.extendedinfo" version="5.0.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" effectslowdown="1.00" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Clean, clear, simple, modern.</summary>
+        <summary lang="it_IT">Pulita, chiara, semplice, moderna.</summary>
+        <disclaimer lang="en_GB">Mouse and Touch device not supported</disclaimer>
+        <disclaimer lang="it_IT">Mouse e dispositivi touch non sono supportati</disclaimer>
+        <description lang="en_GB">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="it_IT">Eminence è una skin che mira ad essere pulita, chiara, semplice e moderna.</description>
+        <license>CC-NC-SA 3.0</license>
+        <website />
+        <email />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>extras/viewthumbs/50.jpg</screenshot>
+            <screenshot>extras/viewthumbs/51.jpg</screenshot>
+            <screenshot>extras/viewthumbs/52.jpg</screenshot>
+            <screenshot>extras/viewthumbs/53.jpg</screenshot>
+            <screenshot>extras/viewthumbs/54.jpg</screenshot>
+            <screenshot>extras/viewthumbs/55.jpg</screenshot>
+            <screenshot>extras/viewthumbs/56.jpg</screenshot>
+            <screenshot>extras/viewthumbs/57.jpg</screenshot>
+            <screenshot>extras/viewthumbs/58.jpg</screenshot>
+            <screenshot>extras/viewthumbs/59.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
