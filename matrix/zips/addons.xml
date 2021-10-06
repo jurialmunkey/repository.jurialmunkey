@@ -213,7 +213,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.0">
+<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.1">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
