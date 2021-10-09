@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <addons>
 <addon id="context.themoviedb.helper" version="1.0.3" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
     <requires>
@@ -40,8 +40,8 @@
         <license>GPL-3.0-or-later</license>
         <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
         <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
-        <source></source>
-        <disclaimer lang="en"></disclaimer>
+        <source />
+        <disclaimer lang="en" />
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
@@ -49,14 +49,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.themoviedb.helper"
-version="4.4.6"
-name="TheMovieDb Helper"
-provider-name="jurialmunkey">
+<addon id="plugin.video.themoviedb.helper" version="4.4.8" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.requests" version="2.9.1"/>
-  <import addon="script.module.pil" version="1.1.7"/>
+  <import addon="xbmc.python" version="3.0.0" />
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.pil" version="1.1.7" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="plugin.py">
   <provides>video</provides>
@@ -120,9 +117,7 @@ provider-name="jurialmunkey">
   </assets>
   <news>Add some additional dbid checking based on title/year combo</news>
 </extension>
-</addon>
-
-<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.2" provider-name="jurialmunkey">
+</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.2" provider-name="jurialmunkey">
     <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
@@ -143,7 +138,7 @@ provider-name="jurialmunkey">
     <extension point="xbmc.addon.metadata">
         <summary>jurialmunkey Alpha Repository</summary>
         <description>A repository for alpha releases of jurialmunkey's skins.</description>
-        <disclaimer></disclaimer>
+        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -151,12 +146,9 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="script.skinvariables"
-version="0.2.5"
-name="Skin Variables"
-provider-name="jurialmunkey">
+<addon id="script.skinvariables" version="0.2.5" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
-  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="xbmc.python" version="3.0.0" />
 </requires>
 <extension point="xbmc.python.script" library="script.py" />
 <extension point="xbmc.addon.metadata">
@@ -213,7 +205,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 
-<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.3">
+<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.5">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
@@ -250,5 +242,4 @@ provider-name="jurialmunkey">
             <screenshot>extras/viewthumbs/59.jpg</screenshot>
         </assets>
     </extension>
-</addon>
-</addons>
+</addon></addons>
