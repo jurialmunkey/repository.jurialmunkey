@@ -164,7 +164,7 @@
 </extension>
 </addon>
 
-<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.68">
+<addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.69">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -185,8 +185,10 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Minimal. Simple.</summary>
         <summary lang="es">Mínimo. Simple.</summary>
+		<summary lang="fr">Minimal. Simple.</summary>
         <description lang="en">Arctic Horizon is a minimalistic skin with an emphasis on simplicity.</description>
         <description lang="es">Arctic Horizon es un skin minimalista con énfasis en la simplicidad.</description>
+		<description lang="fr">Arctic Horizon est un habillage minimaliste mettant l'accent sur la simplicité..</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
@@ -203,9 +205,7 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.10">
+</addon><addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.10">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
