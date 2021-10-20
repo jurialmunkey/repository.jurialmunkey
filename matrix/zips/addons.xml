@@ -49,7 +49,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.themoviedb.helper" version="4.4.10" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<addon id="plugin.video.themoviedb.helper" version="4.4.12" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -205,7 +205,7 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.14">
+</addon><addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.19">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
