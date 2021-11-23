@@ -146,7 +146,7 @@
     </extension>
 </addon>
 
-<addon id="script.skinvariables" version="0.2.7" name="Skin Variables" provider-name="jurialmunkey">
+<addon id="script.skinvariables" version="0.2.8" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
 </requires>
