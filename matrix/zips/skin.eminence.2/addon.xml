@@ -1,4 +1,4 @@
-<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.21">
+<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.22">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
