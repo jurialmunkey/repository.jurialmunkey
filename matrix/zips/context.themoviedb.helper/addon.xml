@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="context.themoviedb.helper" version="1.0.4" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+<addon id="context.themoviedb.helper" version="1.0.6" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="plugin.video.themoviedb.helper" version="4.0.68" />
@@ -7,25 +7,25 @@
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <menu>
-                <label>TMDbHelper Options</label>
+                <label>$ADDON[plugin.video.themoviedb.helper 32145]</label>
                 <item library="context-playusing.py">
-                    <label>Select player</label>
+                    <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-related.py">
-                    <label>Browse lists</label>
+                    <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-trakt.py">
-                    <label>Trakt options</label>
+                    <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-refresh.py">
-                    <label>Refresh details</label>
+                    <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
                 <item library="context-artwork.py">
-                    <label>Manage artwork</label>
+                    <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
             </menu>
