@@ -46,3 +46,6 @@
 [submodule "matrix/script.texturemaker"]
 	path = matrix/script.texturemaker
 	url = https://github.com/jurialmunkey/script.texturemaker
+[submodule "matrix/skin.arctic.horizon.2"]
+	path = matrix/skin.arctic.horizon.2
+	url = https://github.com/jurialmunkey/skin.arctic.horizon.2
