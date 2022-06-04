@@ -43,3 +43,6 @@
 [submodule "leia/skin.eminence.2"]
 	path = leia/skin.eminence.2
 	url = https://github.com/jurialmunkey/skin.eminence.2
+[submodule "matrix/script.texturemaker"]
+	path = matrix/script.texturemaker
+	url = https://github.com/jurialmunkey/script.texturemaker
