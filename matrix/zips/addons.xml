@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-<addon id="context.themoviedb.helper" version="1.1.0" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+<addon id="context.themoviedb.helper" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey" version="1.1.0">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="plugin.video.themoviedb.helper" version="4.7.7" />
@@ -9,27 +9,27 @@
         <menu id="kodi.core.main">
             <menu>
                 <label>$ADDON[plugin.video.themoviedb.helper 32145]</label>
-                <item library="context.py" args="play_using">
+                <item args="play_using" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
-                <item library="context.py" args="related_lists">
+                <item args="related_lists" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
-                <item library="context.py" args="sync_trakt">
+                <item args="sync_trakt" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
-                <item library="context.py" args="refresh_details">
+                <item args="refresh_details" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
-                <item library="context.py" args="manage_artwork">
+                <item args="manage_artwork" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
-                <item library="context.py" args="add_to_library">
+                <item args="add_to_library" library="context.py">
                     <label>$ADDON[plugin.video.themoviedb.helper 32151]</label>
                     <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary)) + String.IsEmpty(ListItem.Property(item.info))</visible>
                 </item>
@@ -51,44 +51,44 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="4.8.16" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" name="TheMovieDb Helper" provider-name="jurialmunkey" version="4.9.0">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" version="1.1.7" />
 </requires>
-<extension point="xbmc.python.pluginsource" library="plugin.py">
+<extension library="plugin.py" point="xbmc.python.pluginsource">
   <provides>video</provides>
 </extension>
-<extension point="xbmc.python.script" library="script.py" />
-<extension point="xbmc.service" library="service.py" />
+<extension library="script.py" point="xbmc.python.script" />
+<extension library="service.py" point="xbmc.service" />
 <extension point="kodi.context.item">
   <menu id="kodi.core.main">
-    <item library="context.py" args="playusing">
+    <item args="playusing" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
     </item>
-    <item library="context.py" args="related">
+    <item args="related" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
     </item>
-    <item library="context.py" args="addlibrary">
+    <item args="addlibrary" library="context.py">
       <label>$LOCALIZE[20444]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary))</visible>
     </item>
-    <item library="context.py" args="trakt">
+    <item args="trakt" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
     </item>
-    <item library="context.py" args="refresh">
+    <item args="refresh" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
     </item>
-    <item library="context.py" args="artwork">
+    <item args="artwork" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
     </item>
-    <item library="context.py" args="sorting">
+    <item args="sorting" library="context.py">
       <label>$ADDON[plugin.video.themoviedb.helper 32309]</label>
       <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.sorting))</visible>
     </item>
@@ -134,14 +134,14 @@
   - Artwork monitor fixes
 </news>
 </extension>
-</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.2" provider-name="jurialmunkey">
-    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" provider-name="jurialmunkey" version="2.2">
+    <extension name="jurialmunkey Alpha Repository" point="xbmc.addon.repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
         </dir>
-		<dir minversion="18.0" maxversion="18.9.0">
+		<dir maxversion="18.9.0" minversion="18.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
@@ -163,12 +163,12 @@
     </extension>
 </addon>
 
-<addon id="script.skinvariables" version="1.0.2" name="Skin Variables" provider-name="jurialmunkey">
+<addon id="script.skinvariables" name="Skin Variables" provider-name="jurialmunkey" version="1.0.2">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
 </requires>
-<extension point="xbmc.python.script" library="script.py" />
-<extension point="xbmc.python.pluginsource" library="plugin.py" />
+<extension library="script.py" point="xbmc.python.script" />
+<extension library="plugin.py" point="xbmc.python.pluginsource" />
 <extension point="xbmc.addon.metadata">
   <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
   <summary lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</summary>
@@ -183,13 +183,13 @@
   </assets>
   <news>0.2.1 - Improve variable build speed</news>
 </extension>
-</addon><addon id="script.texturemaker" version="0.2.6" name="Texture Maker" provider-name="jurialmunkey">
+</addon><addon id="script.texturemaker" name="Texture Maker" provider-name="jurialmunkey" version="0.2.6">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.pil" version="1.1.7" />
 </requires>
-<extension point="xbmc.python.script" library="script.py" />
-<extension point="xbmc.python.pluginsource" library="plugin.py">
+<extension library="script.py" point="xbmc.python.script" />
+<extension library="plugin.py" point="xbmc.python.pluginsource">
   <provides>image</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
@@ -215,7 +215,7 @@
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
         <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
-        <import addon="resource.images.arctic.waves" version="0.0.1" optional="true" />
+        <import addon="resource.images.arctic.waves" optional="true" version="0.0.1" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
@@ -243,7 +243,7 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.1.49">
+</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.2.6">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
