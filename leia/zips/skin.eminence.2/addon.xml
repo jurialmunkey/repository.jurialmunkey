@@ -1,9 +1,11 @@
-<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.22">
+<addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="3.0.5">
     <requires>
-        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
-        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="script.skin.helper.service" version="1.0.0" />
+        <import addon="script.extendedinfo" version="5.0.0" />
         <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
         <import addon="resource.images.weathericons.white" version="0.0.6" />
     </requires>
     <extension debugging="false" effectslowdown="1.00" point="xbmc.gui.skin">
@@ -13,13 +15,10 @@
         <platform>all</platform>
         <summary lang="en_GB">Clean, clear, simple, modern.</summary>
         <summary lang="it_IT">Pulita, chiara, semplice, moderna.</summary>
-        <summary lang="zh_CN">干净、清晰、简单、现代。</summary>
         <disclaimer lang="en_GB">Mouse and Touch device not supported</disclaimer>
         <disclaimer lang="it_IT">Mouse e dispositivi touch non sono supportati</disclaimer>
-        <disclaimer lang="zh_CN">不支持鼠标和触摸设备</disclaimer>
         <description lang="en_GB">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
         <description lang="it_IT">Eminence è una skin che mira ad essere pulita, chiara, semplice e moderna.</description>
-        <description lang="zh_CN">Eminence 是一款追求干净、清晰、简单和现代风格的皮肤。</description>
         <license>CC-NC-SA 3.0</license>
         <website />
         <email />
