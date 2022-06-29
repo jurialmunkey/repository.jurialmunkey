@@ -29,7 +29,7 @@ jobs:
           git config --global user.email "noreply@github.com"
           git add .
       - name: Repo Generator
-        run: python ./_repo_xml_generator.py
+        run: python ./_repo_generator.py
       - name: Commit packages
         run: |
           git add *.zip
