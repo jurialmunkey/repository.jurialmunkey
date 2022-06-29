@@ -1,9 +1,11 @@
 [submodule "leia/plugin.video.themoviedb.helper"]
 	path = leia/plugin.video.themoviedb.helper
 	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+	branch = leia
 [submodule "matrix/plugin.video.themoviedb.helper"]
 	path = matrix/plugin.video.themoviedb.helper
 	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+	branch = matrix
 [submodule "leia/skin.arctic.horizon"]
 	path = leia/skin.arctic.horizon
 	url = https://github.com/jurialmunkey/skin.arctic.horizon
