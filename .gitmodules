@@ -5,21 +5,27 @@
 [submodule "leia/skin.arctic.horizon"]
 	path = leia/skin.arctic.horizon
 	url = https://github.com/jurialmunkey/skin.arctic.horizon
+	branch = leia
 [submodule "leia/script.skinvariables"]
 	path = leia/script.skinvariables
 	url = https://github.com/jurialmunkey/script.skinvariables
+	branch = leia
 [submodule "matrix/script.skinvariables"]
 	path = matrix/script.skinvariables
 	url = https://github.com/jurialmunkey/script.skinvariables
+	branch = matrix
 [submodule "leia/skin.aura"]
 	path = leia/skin.aura
 	url = https://github.com/jurialmunkey/skin.aura
+	branch = leia
 [submodule "leia/context.themoviedb.helper"]
 	path = leia/context.themoviedb.helper
 	url = https://github.com/jurialmunkey/context.themoviedb.helper
+	branch = leia
 [submodule "matrix/context.themoviedb.helper"]
 	path = matrix/context.themoviedb.helper
 	url = https://github.com/jurialmunkey/context.themoviedb.helper
+	branch = matrix
 [submodule "leia/skin.arctic.zephyr.2"]
 	path = leia/skin.arctic.zephyr.2
 	url = https://github.com/jurialmunkey/skin.arctic.zephyr.2
@@ -35,12 +41,15 @@
 [submodule "matrix/skin.arctic.horizon"]
 	path = matrix/skin.arctic.horizon
 	url = https://github.com/jurialmunkey/skin.arctic.horizon
+	branch = matrix
 [submodule "matrix/skin.eminence.2"]
 	path = matrix/skin.eminence.2
 	url = https://github.com/jurialmunkey/skin.eminence.2
+	branch = master
 [submodule "leia/skin.eminence.2"]
 	path = leia/skin.eminence.2
 	url = https://github.com/jurialmunkey/skin.eminence.2
+	branch = Leia
 [submodule "matrix/script.texturemaker"]
 	path = matrix/script.texturemaker
 	url = https://github.com/jurialmunkey/script.texturemaker
