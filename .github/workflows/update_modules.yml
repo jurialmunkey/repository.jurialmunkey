@@ -32,7 +32,7 @@ jobs:
         run: python ./_repo_generator.py
       - name: Commit packages
         run: |
-          git add *.zip
+          git add '*.zip'
           git commit -m ":package: - Update ${{github.event.client_payload.module}} to ${{github.event.client_payload.tag}}"
       - name: Commit meta files
         run: |
