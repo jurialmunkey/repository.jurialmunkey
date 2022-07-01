@@ -27,15 +27,10 @@ jobs:
           git submodule update --init --recursive --checkout --remote -f
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
-          git add .
       - name: Repo Generator
         run: python ./_repo_generator.py
       - name: Commit packages
         run: |
-          git add *.zip
-          git commit -m ":package: - Update ${{github.event.client_payload.module}} to ${{github.event.client_payload.tag}}"
-      - name: Commit meta files
-        run: |
           git add .
-          git commit -m ":bookmark: - Update metadata files"
+          git commit -m ":package::bookmark: - Update ${{github.event.client_payload.module}} to ${{github.event.client_payload.tag}}"
           git push
