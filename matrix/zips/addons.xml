@@ -51,7 +51,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="4.10.8" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="4.10.9" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -144,12 +144,12 @@
     </extension>
 </addon>
 
-<addon id="script.skinvariables" name="Skin Variables" provider-name="jurialmunkey" version="1.0.2">
+<addon id="script.skinvariables" version="1.0.3" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
 </requires>
-<extension library="script.py" point="xbmc.python.script" />
-<extension library="plugin.py" point="xbmc.python.pluginsource" />
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.python.pluginsource" library="plugin.py" />
 <extension point="xbmc.addon.metadata">
   <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
   <summary lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</summary>
