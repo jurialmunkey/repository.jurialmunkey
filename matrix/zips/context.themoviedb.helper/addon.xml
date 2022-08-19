@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="context.themoviedb.helper" version="1.1.0" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
+<addon id="context.themoviedb.helper" version="1.1.1" name="TMDbHelper - Additional Context Menu Items" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="plugin.video.themoviedb.helper" version="4.7.7" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.30" />
     </requires>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
@@ -10,27 +10,27 @@
                 <label>$ADDON[plugin.video.themoviedb.helper 32145]</label>
                 <item library="context.py" args="play_using">
                     <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
                 <item library="context.py" args="related_lists">
                     <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.related)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
                 <item library="context.py" args="sync_trakt">
                     <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
                 <item library="context.py" args="refresh_details">
                     <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
                 <item library="context.py" args="manage_artwork">
                     <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
                 <item library="context.py" args="add_to_library">
                     <label>$ADDON[plugin.video.themoviedb.helper 32151]</label>
-                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)] + String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary)) + String.IsEmpty(ListItem.Property(item.info))</visible>
+                    <visible>[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]</visible>
                 </item>
             </menu>
         </menu>
