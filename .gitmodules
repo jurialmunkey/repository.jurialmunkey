@@ -55,3 +55,6 @@
 [submodule "matrix/skin.arctic.horizon.2"]
 	path = matrix/skin.arctic.horizon.2
 	url = https://github.com/jurialmunkey/skin.arctic.horizon.2
+[submodule "matrix/script.module.tmdbhelper"]
+	path = matrix/script.module.tmdbhelper
+	url = git@github.com:jurialmunkey/script.module.tmdbhelper.git
