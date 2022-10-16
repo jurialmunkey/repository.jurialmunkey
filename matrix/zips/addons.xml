@@ -143,7 +143,7 @@
   </assets>
   <news>0.2.1 - Improve variable build speed</news>
 </extension>
-</addon><addon id="script.texturemaker" version="0.2.7" name="Texture Maker" provider-name="jurialmunkey">
+</addon><addon id="script.texturemaker" version="0.2.8" name="Texture Maker" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.pil" version="1.1.7" />
@@ -203,12 +203,12 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.5.22">
+</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.5.23">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.skinvariables" version="1.0.0" />
-        <import addon="script.texturemaker" version="0.2.7" />
+        <import addon="script.texturemaker" version="0.2.8" />
         <import addon="plugin.video.themoviedb.helper" version="5.0.15" />
         <import addon="resource.images.weatherfanart.multi" version="0.0.1" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
