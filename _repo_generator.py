@@ -314,5 +314,7 @@ class Generator:
 
 
 if __name__ == "__main__":
+    print('Running...')
     for release in [r for r in KODI_VERSIONS if os.path.exists(r)]:
+        print(release)
         Generator(release)
