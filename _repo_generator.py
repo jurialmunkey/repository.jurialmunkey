@@ -46,8 +46,8 @@ _COLORS = {
     "grey": "37",
     "endc": "0",
 }
-_SUPPORTS_COLOR = _setup_colors()
-
+# _SUPPORTS_COLOR = _setup_colors()
+_SUPPORTS_COLOR = False
 
 def color_text(text, color):
     return (
