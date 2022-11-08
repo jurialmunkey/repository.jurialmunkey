@@ -58,3 +58,7 @@
 [submodule "matrix/script.module.tmdbhelper"]
 	path = matrix/script.module.tmdbhelper
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper
+[submodule "matrix/resource.font.robotocjksc"]
+	path = matrix/resource.font.robotocjksc
+	url = https://github.com/jurialmunkey/resource.font.robotocjksc
+	branch = main
