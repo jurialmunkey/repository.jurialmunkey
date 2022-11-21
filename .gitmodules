@@ -62,3 +62,7 @@
 	path = matrix/resource.font.robotocjksc
 	url = https://github.com/jurialmunkey/resource.font.robotocjksc
 	branch = main
+[submodule "nexus/plugin.video.themoviedb.helper"]
+	path = nexus/plugin.video.themoviedb.helper
+	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+	branch = nexus
