@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <addons>
-<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.2" provider-name="jurialmunkey">
+<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.3" provider-name="jurialmunkey">
     <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
@@ -12,26 +12,29 @@
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
         </dir>
-        <dir minversion="18.9.0">
+        <dir minversion="18.9.0" maxversion="19.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="19.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>jurialmunkey Alpha Repository</summary>
         <description>A repository for alpha releases of jurialmunkey's skins.</description>
-        <disclaimer></disclaimer>
+        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-<addon id="repository.marcelveldt" version="1.0.3" name="Marcelveldt's BETA repository" provider-name="marcelveldt, finkleandeinhorn">
+</addon><addon id="repository.marcelveldt" version="1.0.3" name="Marcelveldt's BETA repository" provider-name="marcelveldt, finkleandeinhorn">
 	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
 	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
 		<dir>
@@ -63,7 +66,7 @@
 
 <addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
 	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
 	<extension point="xbmc.addon.repository" name="Rector Repository">
 		<dir maxversion="18.9.0">
@@ -90,23 +93,23 @@
 
 <addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.2" provider-name="drinfernoo">
     <requires>
-        <import addon="kodi.resource" version="1.0.0"/>
+        <import addon="kodi.resource" version="1.0.0" />
     </requires>
 
-    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds"/>
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Background loading animation for Arctic Horizon.</summary>
-        <description lang="en_GB"></description>
-        <language></language>
+        <description lang="en_GB" />
+        <language />
         <platform>all</platform>
         <license>Apache-2.0</license>
-        <forum></forum>
+        <forum />
         <website>https://www.github.com/drinfernoo</website>
-        <email></email>
-        <source></source>
-        <news></news>
-        <disclaimer></disclaimer>
+        <email />
+        <source />
+        <news />
+        <disclaimer />
         <assets>
             <icon>resources/31.jpg</icon>
         </assets>
@@ -116,7 +119,7 @@
 <addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
 	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
 	<requires>
-		<import addon="kodi.resource" version="1.0.0"/>
+		<import addon="kodi.resource" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Horizon Movie Genre Icons</summary>
@@ -127,11 +130,11 @@
 
 <addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.7" provider-name="drinfernoo">
     <requires>
-        <import addon="skin.arctic.horizon" version="0.1.8"/>
+        <import addon="skin.arctic.horizon" version="0.1.8" />
     </requires>
 
-    <extension point="xbmc.ui.screensaver" library="default.py"/>
-    <extension point="xbmc.python.script" library="script.py"/>
+    <extension point="xbmc.ui.screensaver" library="default.py" />
+    <extension point="xbmc.python.script" library="script.py" />
 
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Arctic Mirage</summary>
