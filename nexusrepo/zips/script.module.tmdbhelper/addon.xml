@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.7">
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
