@@ -87,3 +87,6 @@
 	path = nexusrepo/resource.font.robotocjksc
 	url = https://github.com/jurialmunkey/resource.font.robotocjksc
 	branch = main
+[submodule "nexusrepo/script.module.infotagger"]
+	path = nexusrepo/script.module.infotagger
+	url = https://github.com/jurialmunkey/script.module.infotagger.git
