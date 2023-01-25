@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.7" provider-name="drinfernoo">
-    <requires>
-        <import addon="skin.arctic.horizon" version="0.1.8"/>
-    </requires>
-    
+<addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.8" provider-name="drinfernoo">
     <extension point="xbmc.ui.screensaver" library="default.py"/>
     <extension point="xbmc.python.script" library="script.py"/>
-    
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Arctic Mirage</summary>
         <description lang="en">An Arctic-styled screensaver.</description>
