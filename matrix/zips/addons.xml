@@ -131,7 +131,7 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.7">
+</addon><addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.8">
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
     <description lang="en">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
