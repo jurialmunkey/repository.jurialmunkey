@@ -55,9 +55,6 @@
 [submodule "matrix/skin.arctic.horizon.2"]
 	path = matrix/skin.arctic.horizon.2
 	url = https://github.com/jurialmunkey/skin.arctic.horizon.2
-[submodule "matrix/script.module.tmdbhelper"]
-	path = matrix/script.module.tmdbhelper
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper
 [submodule "matrix/resource.font.robotocjksc"]
 	path = matrix/resource.font.robotocjksc
 	url = https://github.com/jurialmunkey/resource.font.robotocjksc
@@ -80,9 +77,6 @@
 [submodule "nexusrepo/skin.arctic.horizon.2"]
 	path = nexusrepo/skin.arctic.horizon.2
 	url = https://github.com/jurialmunkey/skin.arctic.horizon.2
-[submodule "nexusrepo/script.module.tmdbhelper"]
-	path = nexusrepo/script.module.tmdbhelper
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper
 [submodule "nexusrepo/resource.font.robotocjksc"]
 	path = nexusrepo/resource.font.robotocjksc
 	url = https://github.com/jurialmunkey/resource.font.robotocjksc
