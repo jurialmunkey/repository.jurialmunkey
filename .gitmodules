@@ -84,3 +84,9 @@
 [submodule "nexusrepo/script.module.infotagger"]
 	path = nexusrepo/script.module.infotagger
 	url = https://github.com/jurialmunkey/script.module.infotagger.git
+[submodule "matrix/script.module.jurialmunkey"]
+	path = matrix/script.module.jurialmunkey
+	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+[submodule "nexusrepo/script.module.jurialmunkey"]
+	path = nexusrepo/script.module.jurialmunkey
+	url = https://github.com/jurialmunkey/script.module.jurialmunkey
