@@ -90,3 +90,6 @@
 [submodule "nexusrepo/script.module.jurialmunkey"]
 	path = nexusrepo/script.module.jurialmunkey
 	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+[submodule "nexusrepo/script.wikipedia"]
+	path = nexusrepo/script.wikipedia
+	url = https://github.com/jurialmunkey/script.wikipedia.git
