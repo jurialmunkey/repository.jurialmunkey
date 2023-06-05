@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="1.0.8"
+version="1.1.1"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
-  <import addon="script.module.tmdbhelper" version="0.0.2" />
+  <import addon="script.module.jurialmunkey" version="0.1.0" />
 </requires>
 <extension point="xbmc.python.script" library="script.py" />
 <extension point="xbmc.python.pluginsource" library="plugin.py" />
@@ -21,6 +21,5 @@ provider-name="jurialmunkey">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>0.2.1 - Improve variable build speed</news>
 </extension>
 </addon>
