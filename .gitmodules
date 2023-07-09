@@ -66,7 +66,7 @@
 [submodule "nexusrepo/script.skinvariables"]
 	path = nexusrepo/script.skinvariables
 	url = https://github.com/jurialmunkey/script.skinvariables
-	branch = matrix
+	branch = nexus
 [submodule "nexusrepo/context.themoviedb.helper"]
 	path = nexusrepo/context.themoviedb.helper
 	url = https://github.com/jurialmunkey/context.themoviedb.helper
@@ -87,9 +87,11 @@
 [submodule "matrix/script.module.jurialmunkey"]
 	path = matrix/script.module.jurialmunkey
 	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+	branch = matrix
 [submodule "nexusrepo/script.module.jurialmunkey"]
 	path = nexusrepo/script.module.jurialmunkey
 	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+	branch = main
 [submodule "nexusrepo/script.wikipedia"]
 	path = nexusrepo/script.wikipedia
 	url = https://github.com/jurialmunkey/script.wikipedia.git
