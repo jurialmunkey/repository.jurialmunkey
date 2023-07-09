@@ -145,7 +145,7 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.8">
+</addon><addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.9~matrix">
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
     <description lang="en">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
@@ -158,10 +158,10 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="script.skinvariables" version="1.1.1" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.skinvariables" version="1.0.9~matrix" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
-  <import addon="script.module.jurialmunkey" version="0.1.0" />
+  <import addon="script.module.tmdbhelper" version="0.0.2" />
 </requires>
 <extension point="xbmc.python.script" library="script.py" />
 <extension point="xbmc.python.pluginsource" library="plugin.py" />
@@ -177,6 +177,7 @@
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
+  <news>0.2.1 - Improve variable build speed</news>
 </extension>
 </addon><addon id="script.texturemaker" version="0.2.8" name="Texture Maker" provider-name="jurialmunkey">
 <requires>
@@ -238,7 +239,7 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.8.25">
+</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.8.26">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
