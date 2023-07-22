@@ -95,3 +95,7 @@
 [submodule "nexusrepo/script.wikipedia"]
 	path = nexusrepo/script.wikipedia
 	url = https://github.com/jurialmunkey/script.wikipedia.git
+[submodule "nexusrepo/skin.arctic.fuse"]
+	path = nexusrepo/skin.arctic.fuse
+	url = https://github.com/jurialmunkey/skin.arctic.fuse.git
+	branch = nexus
