@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="1.2.1"
+version="2.0.0"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
-  <import addon="script.module.jurialmunkey" version="0.1.14" />
+  <import addon="script.module.jurialmunkey" version="0.1.17" />
   <import addon="script.module.infotagger" version="0.0.5" />
 </requires>
 <extension point="xbmc.python.script" library="script.py" />
