@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root><addon id="plugin.video.themoviedb.helper" version="5.2.8~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<addons>
+<addon id="plugin.video.themoviedb.helper" version="5.2.8~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -188,4 +189,4 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon></root>
+</addon></addons>

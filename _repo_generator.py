@@ -217,7 +217,7 @@ class Generator:
         Generates a zip for each found addon, and updates the addons.xml file accordingly.
         """
         if not os.path.exists(addons_xml_path):
-            addons_root = ElementTree.Element('root')
+            addons_root = ElementTree.Element('addons')
             addons_xml = ElementTree.ElementTree(addons_root)
         else:
             addons_xml = ElementTree.parse(addons_xml_path)
