@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="screensaver.arctic.mirage" name="Arctic Mirage" version="1.8" provider-name="drinfernoo">
+    <extension point="xbmc.ui.screensaver" library="default.py"/>
+    <extension point="xbmc.python.script" library="script.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Arctic Mirage</summary>
+        <description lang="en">An Arctic-styled screensaver.</description>
+        <news>1.7 - Fix for Matrix[CR]1.6 - Add string translations[CR] - Allow install on Matrix[CR] - Remove unused window[CR]1.5 - Fix typo in description[CR]1.4 - Add Arctic Horizon as a dependency[CR]1.3 - Fix hanging on exit[CR]1.2 - Add addon artwork[CR]1.1 - Added widget label setting[CR]1.0 - Initial release</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
