@@ -99,3 +99,39 @@
 	path = nexusrepo/skin.arctic.fuse
 	url = https://github.com/jurialmunkey/skin.arctic.fuse.git
 	branch = nexus
+[submodule "omega/skin.arctic.fuse"]
+	path = omega/skin.arctic.fuse
+	url = https://github.com/jurialmunkey/skin.arctic.fuse
+	branch = omega
+[submodule "omega/script.skinvariables"]
+	path = omega/script.skinvariables
+	url = https://github.com/jurialmunkey/script.skinvariables
+	branch = nexus
+[submodule "omega/script.texturemaker"]
+	path = omega/script.texturemaker
+	url = https://github.com/jurialmunkey/script.texturemaker
+	branch = main
+[submodule "omega/plugin.video.themoviedb.helper"]
+	path = omega/plugin.video.themoviedb.helper
+	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
+	branch = nexus
+[submodule "omega/script.module.jurialmunkey"]
+	path = omega/script.module.jurialmunkey
+	url = https://github.com/jurialmunkey/script.module.jurialmunkey
+	branch = main
+[submodule "omega/script.module.infotagger"]
+	path = omega/script.module.infotagger
+	url = https://github.com/jurialmunkey/script.module.infotagger
+	branch = main
+[submodule "omega/script.wikipedia"]
+	path = omega/script.wikipedia
+	url = https://github.com/jurialmunkey/script.wikipedia
+	branch = main
+[submodule "omega/screensaver.arctic.mirage"]
+	path = omega/screensaver.arctic.mirage
+	url = https://github.com/jurialmunkey/screensaver.arctic.mirage
+	branch = master
+[submodule "omega/resource.font.robotcjksc"]
+	path = omega/resource.font.robotcjksc
+	url = https://github.com/jurialmunkey/resource.font.robotocjksc
+	branch = main
