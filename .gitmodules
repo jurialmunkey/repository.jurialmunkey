@@ -135,3 +135,7 @@
 	path = omega/resource.font.robotcjksc
 	url = https://github.com/jurialmunkey/resource.font.robotocjksc
 	branch = main
+[submodule "omega/skin.arctic.horizon.2"]
+	path = omega/skin.arctic.horizon.2
+	url = https://github.com/jurialmunkey/skin.arctic.horizon.2.git
+	branch = omega
