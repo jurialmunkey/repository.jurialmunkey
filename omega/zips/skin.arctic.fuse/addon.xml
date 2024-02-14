@@ -1,7 +1,7 @@
-<addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.4.71~omega">
+<addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.4.72~omega">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.skinvariables" version="2.1.2" />
+        <import addon="script.skinvariables" version="2.1.4" />
         <import addon="script.texturemaker" version="0.2.9" />
         <import addon="plugin.video.themoviedb.helper" version="5.2.15~nexus" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
