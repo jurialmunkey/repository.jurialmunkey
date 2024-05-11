@@ -51,7 +51,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="5.2.22~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="5.2.23~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -207,7 +207,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.6.33~nexus">
+</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.7.0~nexus">
     <requires>
         <import addon="xbmc.gui" version="5.16.0" />
         <import addon="script.skinvariables" version="2.1.11" />
