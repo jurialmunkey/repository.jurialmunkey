@@ -158,7 +158,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.7.36~omega">
+</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.7.37~omega">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.14" />
