@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-<addon id="plugin.video.themoviedb.helper" version="5.2.30" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<addon id="plugin.video.themoviedb.helper" version="5.2.31" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -99,7 +99,7 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.skinvariables" version="2.1.15" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.skinvariables" version="2.1.16" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.jurialmunkey" version="0.1.17" />
@@ -158,12 +158,12 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.7.37~omega">
+</addon><addon id="skin.arctic.fuse" name="Arctic Fuse" provider-name="jurialmunkey" version="0.7.38~omega">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.14" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="5.2.27" />
+        <import addon="plugin.video.themoviedb.helper" version="5.2.31" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.1" />
