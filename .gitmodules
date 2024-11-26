@@ -1,3 +1,12 @@
+[submodule "repo/resource.images.arctic.waves"]
+	path = repo/resource.images.arctic.waves
+	url = https://github.com/drinfernoo/resource.images.arctic.waves
+[submodule "repo/screensaver.arctic.mirage"]
+	path = repo/screensaver.arctic.mirage
+	url = https://github.com/drinfernoo/screensaver.arctic.mirage
+[submodule "repo/resource.images.moviegenreicons.horizon"]
+	path = repo/resource.images.moviegenreicons.horizon
+	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
 [submodule "nexus/plugin.video.themoviedb.helper"]
 	path = nexusrepo/plugin.video.themoviedb.helper
 	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
