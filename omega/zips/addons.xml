@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.themoviedb.helper" version="6.8.4" name="TMDb Helper" provider-name="jurialmunkey">
+<addons><addon id="plugin.video.themoviedb.helper" version="6.8.5" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -7,7 +7,7 @@
   <import addon="script.module.addon.signals" version="0.0.6" />
   <import addon="script.module.jurialmunkey" version="0.2.28" />
   <import addon="script.module.infotagger" version="0.0.5" />
-  <import addon="script.module.beautifulsoup4" version="4.9.3" />
+  <import addon="script.module.qrcode" version="6.1.0" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="resources/plugin.py">
   <provides>video</provides>
@@ -158,7 +158,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="skin.arctic.fuse.2" name="Arctic Fuse 2" provider-name="jurialmunkey" version="2.10.3">
+</addon><addon id="skin.arctic.fuse.2" name="Arctic Fuse 2" provider-name="jurialmunkey" version="2.10.4">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
