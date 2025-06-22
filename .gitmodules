@@ -90,3 +90,6 @@
 [submodule "omega/skin.arctic.fuse.2"]
 	path = omega/skin.arctic.fuse.2
 	url = https://github.com/jurialmunkey/skin.arctic.fuse.2.git
+[submodule "omega/context.themoviedb.helper"]
+	path = omega/context.themoviedb.helper
+	url = https://github.com/jurialmunkey/context.themoviedb.helper.git
