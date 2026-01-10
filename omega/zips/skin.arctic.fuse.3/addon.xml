@@ -1,9 +1,9 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.0.6">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.0.7">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="6.12.11" />
+        <import addon="plugin.video.themoviedb.helper" version="6.14.0" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
@@ -20,7 +20,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">A minimal row based skin</summary>
+        <summary lang="zh">简约行式布局皮肤</summary>
         <description lang="en">Arctic Fuse 3 is a minimal row based skin with customisable widgets</description>
+        <description lang="zh">Arctic Fuse 3 是一款采用简约行式布局的 Kodi 皮肤，支持小组件自定义功能</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
