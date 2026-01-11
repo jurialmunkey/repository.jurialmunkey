@@ -62,13 +62,13 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.14.0" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.14.1" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" version="1.1.7" />
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.2.30" />
+  <import addon="script.module.jurialmunkey" version="0.2.31" />
   <import addon="script.module.infotagger" version="0.0.5" />
   <import addon="script.module.qrcode" version="6.1.0" />
 </requires>
@@ -156,7 +156,7 @@
     </assets>
   </extension>
 
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.30">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.31">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -165,6 +165,7 @@
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
     <description lang="en_GB">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
+    <description lang="zh_CN">TMDb 助手及其他相关 jurialmunkey 插件所需的通用代码</description>
     <license>GPL-3.0-or-later</license>
     <website>https://github.com/jurialmunkey/script.module.jurialmunkey</website>
     <assets>
@@ -262,12 +263,12 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.0.8">
+</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.0.9">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="6.14.0" />
+        <import addon="plugin.video.themoviedb.helper" version="6.14.1" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
@@ -284,8 +285,10 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">A minimal row based skin</summary>
+        <summary lang="es">Una skin minimalista de diseño horizontal</summary>
         <summary lang="zh">简约行式布局皮肤</summary>
         <description lang="en">Arctic Fuse 3 is a minimal row based skin with customisable widgets</description>
+        <description lang="es">Arctic Fuse 3 es una skin minimalista de diseño horizontal con widgets personalizables</description>
         <description lang="zh">Arctic Fuse 3 是一款采用简约行式布局的 Kodi 皮肤，支持小组件自定义功能</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
