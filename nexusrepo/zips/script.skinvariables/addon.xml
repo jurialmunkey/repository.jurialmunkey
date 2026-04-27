@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.skinvariables"
-version="2.1.35"
+version="2.2.0"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
@@ -14,11 +14,17 @@ provider-name="jurialmunkey">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
+  <summary lang="zh_CN">Skin Variables 帮助皮肤设计者使用模板为多个容器和列表项构建变量及表达式</summary>
   <summary lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</summary>
+  <summary lang="sv_SE">Skin Variables hjälper de som bygger skal att skapa variabler och uttryck för flera behållare och listobjekt med hjälp av en mall</summary>
   <description lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</description>
+  <description lang="zh_CN">Skin Variables 帮助皮肤设计者使用模板为多个容器和列表项构建变量及表达式</description>
   <description lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</description>
+  <description lang="sv_SE">Skin Variables hjälper de som bygger skal att skapa variabler och uttryck för flera behållare och listobjekt med hjälp av en mall</description>
   <disclaimer lang="en_GB">For skinners</disclaimer>
+  <disclaimer lang="zh_CN">适用于皮肤设计者</disclaimer>
   <disclaimer lang="fr_FR">Pour les skinners</disclaimer>
+  <disclaimer lang="sv_SE">För de som bygger skal</disclaimer>
   <license>GPL-3.0-or-later</license>
   <assets>
     <icon>icon.png</icon>
