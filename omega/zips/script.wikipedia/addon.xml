@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.wikipedia"
-version="0.1.1"
+version="0.1.2"
 name="Wikipedia"
 provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.beautifulsoup4" version="4.9.3" />
-  <import addon="script.module.jurialmunkey" version="0.2.34" />
+  <import addon="script.module.jurialmunkey" version="0.2.35" />
 </requires>
 <extension point="xbmc.python.script" library="resources/script.py" />
 <extension point="xbmc.addon.metadata">

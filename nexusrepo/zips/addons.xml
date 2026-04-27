@@ -62,13 +62,13 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.15.4" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.15.5" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" version="1.1.7" />
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.2.34" />
+  <import addon="script.module.jurialmunkey" version="0.2.35" />
   <import addon="script.module.infotagger" version="0.0.5" />
   <import addon="script.module.qrcode" version="6.1.0" />
 </requires>
@@ -143,7 +143,7 @@
     </assets>
   </extension>
 
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.34">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.35">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -208,11 +208,11 @@
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
-</addon><addon id="script.wikipedia" version="0.1.1" name="Wikipedia" provider-name="jurialmunkey">
+</addon><addon id="script.wikipedia" version="0.1.2" name="Wikipedia" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.beautifulsoup4" version="4.9.3" />
-  <import addon="script.module.jurialmunkey" version="0.2.34" />
+  <import addon="script.module.jurialmunkey" version="0.2.35" />
 </requires>
 <extension point="xbmc.python.script" library="resources/script.py" />
 <extension point="xbmc.addon.metadata">
