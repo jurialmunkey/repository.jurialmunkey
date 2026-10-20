@@ -26,6 +26,16 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="coope">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0" />
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
+        <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
+        <platform>all</platform>
+    </extension>
 </addon><addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.2" provider-name="drinfernoo">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
