@@ -96,3 +96,7 @@
 [submodule "omega/skin.arctic.fuse.3"]
 	path = omega/skin.arctic.fuse.3
 	url = https://github.com/jurialmunkey/skin.arctic.fuse.3.git
+[submodule "repo/resource.images.arctic.splash"]
+	path = repo/resource.images.arctic.splash
+	url = https://github.com/jurialmunkey/resource.images.arctic.splash
+	branch = main
