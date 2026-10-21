@@ -26,13 +26,13 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="coope">
+</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.7" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
     <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
+        <summary lang="en_GB">Seasonal splash artwork for Arctic</summary>
         <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
         <platform>all</platform>
     </extension>
@@ -58,6 +58,16 @@
         <assets>
             <icon>resources/31.jpg</icon>
         </assets>
+    </extension>
+</addon><addon id="resource.images.arctic.weather" name="Arctic Weather" version="1.0.0" provider-name="jurialmunkey">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0" />
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="weather" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Japanese weather artwork for Arctic</summary>
+        <description lang="en_GB">Two sets of 49 Japanese weather cards at 320 x 720: original illustrations and simplified watercolours, each covering Kodi weather codes 0-47 and na.</description>
+        <platform>all</platform>
     </extension>
 </addon><addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
 	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
