@@ -100,3 +100,7 @@
 	path = repo/resource.images.arctic.splash
 	url = https://github.com/jurialmunkey/resource.images.arctic.splash
 	branch = main
+[submodule "repo/resource.images.arctic.weather"]
+	path = repo/resource.images.arctic.weather
+	url = https://github.com/jurialmunkey/resource.images.arctic.weather
+	branch = main
