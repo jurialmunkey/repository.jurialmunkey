@@ -59,14 +59,14 @@
             <icon>resources/31.jpg</icon>
         </assets>
     </extension>
-</addon><addon id="resource.images.arctic.weather" name="Arctic Weather" version="1.0.0" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.weather" name="Arctic Weather" version="1.0.4" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
     <extension point="kodi.resource.images" compile="false" type="weather" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Japanese weather artwork for Arctic</summary>
-        <description lang="en_GB">Two sets of 49 Japanese weather cards at 320 x 720: original illustrations and simplified watercolours, each covering Kodi weather codes 0-47 and na.</description>
+        <description lang="en_GB">Japanese weather cards at 320 x 720: original illustrations, simplified watercolours, minimal woodblock prints and a layered animated woodblock set. Static landscape woodblock artwork at 1280 x 720 is available for weather dialogs. Each set covers Kodi weather codes 0-47 and na. Animated artwork uses static plates and up to five single-frame PNGs per effect.</description>
         <platform>all</platform>
     </extension>
 </addon><addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
