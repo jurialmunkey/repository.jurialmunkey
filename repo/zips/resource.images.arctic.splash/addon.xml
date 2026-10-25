@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="coope">
+<addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.0" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
     <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
-        <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
+        <summary lang="en_GB">Three seasonal splash scenes for Arctic</summary>
+        <description lang="en_GB">Fuji, Japanese countryside and Tokyo street artwork with four seasons, hourly lighting, weather effects and native skin animation recipes. Shared lossless transparency masks and mixed WebP compression keep the complete resource below 100 MB. Requires a skin implementing the version 2 diffuse-mask contract.</description>
         <platform>all</platform>
     </extension>
 </addon>

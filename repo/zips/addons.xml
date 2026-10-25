@@ -26,14 +26,14 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="coope">
+</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.0" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
     <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
-        <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
+        <summary lang="en_GB">Three seasonal splash scenes for Arctic</summary>
+        <description lang="en_GB">Fuji, Japanese countryside and Tokyo street artwork with four seasons, hourly lighting, weather effects and native skin animation recipes. Shared lossless transparency masks and mixed WebP compression keep the complete resource below 100 MB. Requires a skin implementing the version 2 diffuse-mask contract.</description>
         <platform>all</platform>
     </extension>
 </addon><addon id="resource.images.arctic.waves" name="Arctic Waves" version="0.0.2" provider-name="drinfernoo">
@@ -58,6 +58,16 @@
         <assets>
             <icon>resources/31.jpg</icon>
         </assets>
+    </extension>
+</addon><addon id="resource.images.arctic.weather" name="Arctic Weather" version="1.0.4" provider-name="jurialmunkey">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0" />
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="weather" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Japanese weather artwork for Arctic</summary>
+        <description lang="en_GB">Japanese weather cards at 320 x 720: original illustrations, simplified watercolours, minimal woodblock prints and a layered animated woodblock set. Static landscape woodblock artwork at 1280 x 720 is available for weather dialogs. Each set covers Kodi weather codes 0-47 and na. Animated artwork uses static plates and up to five single-frame PNGs per effect.</description>
+        <platform>all</platform>
     </extension>
 </addon><addon id="resource.images.moviegenreicons.horizon" name="Movie Genre Icons - Horizon" version="0.0.1" provider-name="Swageroni_">
 	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
