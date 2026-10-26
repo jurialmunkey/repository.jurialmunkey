@@ -108,3 +108,19 @@
 	path = repo/screensaver.arctic.splash
 	url = https://github.com/jurialmunkey/screensaver.arctic.splash
 	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.mdblist"]
+	path = nexusrepo/script.module.tmdbhelper.sync.mdblist
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.mdblist.git
+	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.trakt"]
+	path = nexusrepo/script.module.tmdbhelper.sync.trakt
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.trakt.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.mdblist"]
+	path = omega/script.module.tmdbhelper.sync.mdblist
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.mdblist.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.trakt"]
+	path = omega/script.module.tmdbhelper.sync.trakt
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.trakt.git
+	branch = main
