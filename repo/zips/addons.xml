@@ -91,4 +91,20 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
+</addon><addon id="screensaver.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="resource.images.arctic.splash" version="1.1.0" />
+    </requires>
+    <extension point="xbmc.ui.screensaver" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Animated seasonal Arctic splash scenes</summary>
+        <description lang="en_GB">Mount Fuji, Japanese countryside and Tokyo café with animated weather and hourly lighting. Cycle seasons, scenes, time and weather automatically, follow current conditions, randomise on start, or choose specific states.</description>
+        <platform>all</platform>
+        <license>CC-BY-NC-SA-4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
 </addon></addons>
