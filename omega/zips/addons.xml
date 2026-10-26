@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.18.3" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.19.0" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -177,6 +177,57 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.0.0" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.18.3" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Kodi library sync provider for TMDbHelper</summary>
+        <description lang="en_GB">Collection, history, playback progress, watched actions and scrobbling using the local Kodi video library, plus a local watchlist.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.0" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.18.3" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">MDbList sync provider for TMDbHelper</summary>
+        <description lang="en_GB">Data sync, synced-state actions and scrobbling for TMDbHelper.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.1.0" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.18.3" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Trakt sync provider for TMDbHelper</summary>
+        <description lang="en_GB">Data sync, synced-state actions and scrobbling for TMDbHelper.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="script.skinvariables" version="2.2.10" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
@@ -274,7 +325,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.4.10">
+</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.4.12">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.9" />
