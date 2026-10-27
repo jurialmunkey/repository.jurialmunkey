@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.19.0" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.19.1" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -177,7 +177,7 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.0.0" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.0" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -186,7 +186,7 @@
     <extension point="xbmc.python.module" library="resources/lib" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Kodi library sync provider for TMDbHelper</summary>
-        <description lang="en_GB">Collection, history, playback progress, watched actions and scrobbling using the local Kodi video library, plus a local watchlist.</description>
+        <description lang="en_GB">Collection, history, playback progress, watched actions and scrobbling using the local Kodi video library, with separate local history/progress for non-library items and a local watchlist.</description>
         <platform>all</platform>
         <license>GPL-3.0-or-later</license>
         <assets>
