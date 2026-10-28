@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="script.module.tmdbhelper.sync.kodi" version="1.1.0" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+<addon id="script.module.tmdbhelper.sync.kodi" version="1.1.1" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.jurialmunkey" version="0.2.35"/>
