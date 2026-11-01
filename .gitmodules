@@ -132,3 +132,19 @@
 	path = omega/script.module.tmdbhelper.sync.kodi
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.kodi.git
 	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.tvdb"]
+	path = nexusrepo/script.module.tmdbhelper.sync.tvdb
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.tvdb.git
+	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.gemini"]
+	path = nexusrepo/script.module.tmdbhelper.sync.gemini
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.tvdb"]
+	path = omega/script.module.tmdbhelper.sync.tvdb
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.tvdb.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.gemini"]
+	path = omega/script.module.tmdbhelper.sync.gemini
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
+	branch = main
