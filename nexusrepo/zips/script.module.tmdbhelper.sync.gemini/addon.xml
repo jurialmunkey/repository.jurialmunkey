@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.module.tmdbhelper.sync.gemini" version="1.0.0" name="TMDbHelper - Gemini" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.jurialmunkey" version="0.2.35"/>
+        <import addon="plugin.video.themoviedb.helper" version="6.20.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="resources/script.py"/>
+    <extension point="xbmc.python.module" library="resources/lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Gemini movie and TV recommendations for TMDbHelper</summary>
+        <description lang="en_GB">Gemini movie and TV recommendations, API access and settings for TMDbHelper.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
