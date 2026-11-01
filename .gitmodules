@@ -148,3 +148,19 @@
 	path = omega/script.module.tmdbhelper.sync.gemini
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
 	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.simkl"]
+	path = nexusrepo/script.module.tmdbhelper.sync.simkl
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.simkl.git
+	branch = main
+[submodule "nexusrepo/script.module.tmdbhelper.sync.floppy"]
+	path = nexusrepo/script.module.tmdbhelper.sync.floppy
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.floppy.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.simkl"]
+	path = omega/script.module.tmdbhelper.sync.simkl
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.simkl.git
+	branch = main
+[submodule "omega/script.module.tmdbhelper.sync.floppy"]
+	path = omega/script.module.tmdbhelper.sync.floppy
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.floppy.git
+	branch = main
