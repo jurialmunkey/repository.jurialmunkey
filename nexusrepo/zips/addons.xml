@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.20.3" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.20.6" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -246,11 +246,11 @@
         <disclaimer lang="en_GB">Data provided by SIMKL (https://simkl.com).</disclaimer>
         <license>GPL-3.0-or-later</license>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.3" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.5" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.20.3" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.5" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
