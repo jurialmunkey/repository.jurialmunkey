@@ -246,7 +246,7 @@
         <disclaimer lang="en_GB">Data provided by SIMKL (https://simkl.com).</disclaimer>
         <license>GPL-3.0-or-later</license>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.7" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.8" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
