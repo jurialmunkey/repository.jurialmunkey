@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.21.1" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.21.2" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -210,7 +210,7 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.5" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.6" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -246,7 +246,7 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.simkl" version="0.1.4" name="TMDbHelper Sync - SIMKL" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.simkl" version="0.1.5" name="TMDbHelper Sync - SIMKL" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -261,7 +261,7 @@
         <disclaimer lang="en_GB">Data provided by SIMKL (https://simkl.com).</disclaimer>
         <license>GPL-3.0-or-later</license>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.8" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.9" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -297,7 +297,7 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.skinvariables" version="2.2.14" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.skinvariables" version="2.2.16" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.jurialmunkey" version="0.2.28" />
@@ -394,10 +394,10 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.4.19">
+</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.4.20">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.skinvariables" version="2.2.13" />
+        <import addon="script.skinvariables" version="2.2.15" />
         <import addon="script.texturemaker" version="0.2.9" />
         <import addon="plugin.video.themoviedb.helper" version="6.19.2" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
