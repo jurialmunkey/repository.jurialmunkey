@@ -164,3 +164,7 @@
 	path = omega/script.module.tmdbhelper.sync.floppy
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.floppy.git
 	branch = main
+[submodule "piers/skin.arctic.fuse.3"]
+	path = piers/skin.arctic.fuse.3
+	url = https://github.com/jurialmunkey/skin.arctic.fuse.3.git
+	branch = piers
