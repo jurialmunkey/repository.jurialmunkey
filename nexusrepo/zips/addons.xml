@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.19.6" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.21.2" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -146,7 +146,7 @@
     </assets>
   </extension>
 
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.35">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.36">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -162,11 +162,44 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.2" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.floppy" version="0.1.3" name="TMDbHelper Sync - Floppy" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+    </requires>
+    <extension point="xbmc.python.script" library="resources/script.py" />
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Floppy sync provider for TMDbHelper</summary>
+        <description lang="en_GB">History, watchlist, collection, playback progress, scrobbling, user lists and monitored lists from your Floppy server.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+    </extension>
+</addon><addon id="script.module.tmdbhelper.sync.gemini" version="1.0.3" name="TMDbHelper - Gemini" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.19.3" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+    </requires>
+    <extension point="xbmc.python.script" library="resources/script.py" />
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Gemini movie and TV recommendations for TMDbHelper</summary>
+        <description lang="en_GB">Gemini movie and TV recommendations, API access and settings for TMDbHelper.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.6" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
@@ -180,11 +213,11 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.1" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.4" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.19.3" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
@@ -198,11 +231,26 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.0" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.simkl" version="0.1.5" name="TMDbHelper Sync - SIMKL" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.19.3" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+    </requires>
+    <extension point="xbmc.python.script" library="resources/script.py" />
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">SIMKL watchlist and history sync for TMDbHelper</summary>
+        <description lang="en_GB">Read SIMKL watchlists, watched history and playback progress, and browse your custom lists. Includes device-code authorization. Custom lists require SIMKL PRO or VIP.</description>
+        <platform>all</platform>
+        <disclaimer lang="en_GB">Data provided by SIMKL (https://simkl.com).</disclaimer>
+        <license>GPL-3.0-or-later</license>
+    </extension>
+</addon><addon id="script.module.tmdbhelper.sync.trakt" version="1.2.9" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.5" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
@@ -216,7 +264,25 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.skinvariables" version="2.2.11" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.tvdb" version="1.0.3" name="TMDbHelper - TVDb" provider-name="jurialmunkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.jurialmunkey" version="0.2.35" />
+        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+    </requires>
+    <extension point="xbmc.python.script" library="resources/script.py" />
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">TVDb awards and genre browsing for TMDbHelper</summary>
+        <description lang="en_GB">TVDb awards and genre browsing, API access and settings for TMDbHelper.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.skinvariables" version="2.2.16" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.jurialmunkey" version="0.2.28" />
