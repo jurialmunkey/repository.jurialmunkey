@@ -168,3 +168,31 @@
 	path = piers/skin.arctic.fuse.3
 	url = https://github.com/jurialmunkey/skin.arctic.fuse.3.git
 	branch = piers
+[submodule "repo/resource.images.arctic.backgrounds.artdeco"]
+	path = repo/resource.images.arctic.backgrounds.artdeco
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.artdeco.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.bauhaus"]
+	path = repo/resource.images.arctic.backgrounds.bauhaus
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.bauhaus.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.faceted"]
+	path = repo/resource.images.arctic.backgrounds.faceted
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.faceted.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.mosaic"]
+	path = repo/resource.images.arctic.backgrounds.mosaic
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.mosaic.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.schiele"]
+	path = repo/resource.images.arctic.backgrounds.schiele
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.schiele.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.surrealist"]
+	path = repo/resource.images.arctic.backgrounds.surrealist
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.surrealist.git
+	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.watercolour"]
+	path = repo/resource.images.arctic.backgrounds.watercolour
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.watercolour.git
+	branch = main
