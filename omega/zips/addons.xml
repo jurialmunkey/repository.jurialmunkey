@@ -62,13 +62,13 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.21.5" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.22.0" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" version="1.1.7" />
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.2.37" />
+  <import addon="script.module.jurialmunkey" version="0.2.39" />
   <import addon="script.module.infotagger" version="0.1.0" />
   <import addon="script.module.qrcode" version="6.1.0" />
 </requires>
@@ -161,7 +161,7 @@
     </assets>
   </extension>
 
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.37">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.39">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -210,11 +210,11 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.6" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.kodi" version="1.1.7" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        <import addon="plugin.video.themoviedb.helper" version="6.21.3" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
@@ -297,7 +297,7 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.skinvariables" version="2.2.16" name="Skin Variables" provider-name="jurialmunkey">
+</addon><addon id="script.skinvariables" version="2.3.0" name="Skin Variables" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.jurialmunkey" version="0.2.28" />
@@ -394,16 +394,17 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.4.22">
+</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.5.0">
     <requires>
         <import addon="xbmc.gui" version="5.18.0" />
-        <import addon="script.skinvariables" version="2.2.15" />
+        <import addon="script.skinvariables" version="2.3.0" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="6.21.5" />
+        <import addon="plugin.video.themoviedb.helper" version="6.22.0" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.arctic.splash" version="1.1.0" />
         <import addon="resource.images.arctic.weather" version="1.0.4" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.images.arctic.backgrounds.surrealist" version="1.0.0" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
