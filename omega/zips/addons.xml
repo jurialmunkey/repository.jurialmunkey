@@ -62,7 +62,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="6.22.1" name="TMDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="6.22.3" name="TMDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -177,12 +177,12 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.tmdbhelper.sync.floppy" version="0.1.3" name="TMDbHelper Sync - Floppy" provider-name="jurialmunkey">
+</addon><addon id="script.module.tmdbhelper.sync.floppy" version="0.1.4" name="TMDbHelper Sync - Floppy" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.jurialmunkey" version="0.2.35" />
-        <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        <import addon="plugin.video.themoviedb.helper" version="6.22.2" />
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py" />
     <extension point="xbmc.python.module" library="resources/lib" />
@@ -394,17 +394,18 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.5.2">
+</addon><addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.5.4">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
+
         <import addon="script.skinvariables" version="2.3.2" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="6.22.0" />
+        <import addon="plugin.video.themoviedb.helper" version="6.22.1" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.arctic.splash" version="1.1.0" />
         <import addon="resource.images.arctic.weather" version="1.0.4" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
-        <import addon="resource.images.arctic.backgrounds.surrealist" version="1.0.0" />
+        <import addon="resource.images.arctic.backgrounds.surrealist" version="1.0.2" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
