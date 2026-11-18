@@ -91,7 +91,7 @@
         <description lang="en_GB">68 illustrated Schiele backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.surrealist" name="Arctic Backgrounds - Surrealist" version="1.0.2" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.surrealist" name="Arctic Backgrounds - Surrealist" version="1.0.3" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
