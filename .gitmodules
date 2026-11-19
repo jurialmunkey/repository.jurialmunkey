@@ -7,38 +7,6 @@
 [submodule "repo/resource.images.moviegenreicons.horizon"]
 	path = repo/resource.images.moviegenreicons.horizon
 	url = https://github.com/Swageroni/resource.images.moviegenreicons.horizon
-[submodule "nexus/plugin.video.themoviedb.helper"]
-	path = nexusrepo/plugin.video.themoviedb.helper
-	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper
-	branch = nexus
-[submodule "nexusrepo/script.skinvariables"]
-	path = nexusrepo/script.skinvariables
-	url = https://github.com/jurialmunkey/script.skinvariables
-	branch = nexus
-[submodule "nexusrepo/context.themoviedb.helper"]
-	path = nexusrepo/context.themoviedb.helper
-	url = https://github.com/jurialmunkey/context.themoviedb.helper
-	branch = matrix
-[submodule "nexusrepo/script.texturemaker"]
-	path = nexusrepo/script.texturemaker
-	url = https://github.com/jurialmunkey/script.texturemaker
-[submodule "nexusrepo/skin.arctic.horizon.2"]
-	path = nexusrepo/skin.arctic.horizon.2
-	url = https://github.com/jurialmunkey/skin.arctic.horizon.2
-[submodule "nexusrepo/resource.font.robotocjksc"]
-	path = nexusrepo/resource.font.robotocjksc
-	url = https://github.com/jurialmunkey/resource.font.robotocjksc
-	branch = main
-[submodule "nexusrepo/script.module.infotagger"]
-	path = nexusrepo/script.module.infotagger
-	url = https://github.com/jurialmunkey/script.module.infotagger.git
-[submodule "nexusrepo/script.module.jurialmunkey"]
-	path = nexusrepo/script.module.jurialmunkey
-	url = https://github.com/jurialmunkey/script.module.jurialmunkey
-	branch = main
-[submodule "nexusrepo/script.wikipedia"]
-	path = nexusrepo/script.wikipedia
-	url = https://github.com/jurialmunkey/script.wikipedia.git
 [submodule "omega/script.skinvariables"]
 	path = omega/script.skinvariables
 	url = https://github.com/jurialmunkey/script.skinvariables
@@ -97,14 +65,6 @@
 	path = repo/screensaver.arctic.splash
 	url = https://github.com/jurialmunkey/screensaver.arctic.splash
 	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.mdblist"]
-	path = nexusrepo/script.module.tmdbhelper.sync.mdblist
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.mdblist.git
-	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.trakt"]
-	path = nexusrepo/script.module.tmdbhelper.sync.trakt
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.trakt.git
-	branch = main
 [submodule "omega/script.module.tmdbhelper.sync.mdblist"]
 	path = omega/script.module.tmdbhelper.sync.mdblist
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.mdblist.git
@@ -113,21 +73,9 @@
 	path = omega/script.module.tmdbhelper.sync.trakt
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.trakt.git
 	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.kodi"]
-	path = nexusrepo/script.module.tmdbhelper.sync.kodi
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.kodi.git
-	branch = main
 [submodule "omega/script.module.tmdbhelper.sync.kodi"]
 	path = omega/script.module.tmdbhelper.sync.kodi
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.kodi.git
-	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.tvdb"]
-	path = nexusrepo/script.module.tmdbhelper.sync.tvdb
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.tvdb.git
-	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.gemini"]
-	path = nexusrepo/script.module.tmdbhelper.sync.gemini
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
 	branch = main
 [submodule "omega/script.module.tmdbhelper.sync.tvdb"]
 	path = omega/script.module.tmdbhelper.sync.tvdb
@@ -136,14 +84,6 @@
 [submodule "omega/script.module.tmdbhelper.sync.gemini"]
 	path = omega/script.module.tmdbhelper.sync.gemini
 	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
-	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.simkl"]
-	path = nexusrepo/script.module.tmdbhelper.sync.simkl
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.simkl.git
-	branch = main
-[submodule "nexusrepo/script.module.tmdbhelper.sync.floppy"]
-	path = nexusrepo/script.module.tmdbhelper.sync.floppy
-	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.floppy.git
 	branch = main
 [submodule "omega/script.module.tmdbhelper.sync.simkl"]
 	path = omega/script.module.tmdbhelper.sync.simkl
