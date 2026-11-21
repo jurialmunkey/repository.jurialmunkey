@@ -31,7 +31,7 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.bauhaus" name="Arctic Backgrounds - Bauhaus" version="1.0.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.bauhaus" name="Arctic Backgrounds - Bauhaus" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -41,7 +41,7 @@
         <description lang="en_GB">68 illustrated Bauhaus backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.couture" name="Arctic Backgrounds - Couture" version="1.0.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.couture" name="Arctic Backgrounds - Couture" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -51,7 +51,7 @@
         <description lang="en_GB">68 elegant fashion illustration backgrounds, covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.expressionist" name="Arctic Backgrounds - Expressionist" version="1.0.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.expressionist" name="Arctic Backgrounds - Expressionist" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -61,7 +61,7 @@
         <description lang="en_GB">68 illustrated Expressionist backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.masquerade" name="Arctic Backgrounds - Masquerade" version="1.0.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.masquerade" name="Arctic Backgrounds - Masquerade" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -71,7 +71,7 @@
         <description lang="en_GB">68 sumptuous, theatrical Art Deco backgrounds, covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.mosaic" name="Arctic Backgrounds - Mosaic" version="1.0.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.mosaic" name="Arctic Backgrounds - Mosaic" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -91,7 +91,7 @@
         <description lang="en_GB">68 illustrated Schiele backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.backgrounds.surrealist" name="Arctic Backgrounds - Surrealist" version="1.0.3" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.backgrounds.surrealist" name="Arctic Backgrounds - Surrealist" version="1.0.4" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -101,7 +101,7 @@
         <description lang="en_GB">68 illustrated Surrealist backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.0" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.1" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>

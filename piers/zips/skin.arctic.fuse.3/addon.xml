@@ -1,15 +1,13 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.5.6">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3" provider-name="jurialmunkey" version="3.5.7">
     <requires>
         <import addon="xbmc.gui" version="5.18.0" />
 
-        <import addon="script.skinvariables" version="2.3.6" />
+        <import addon="script.skinvariables" version="2.3.11" />
         <import addon="script.texturemaker" version="0.2.9" />
         <import addon="plugin.video.themoviedb.helper" version="6.22.2" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
-        <import addon="resource.images.arctic.splash" version="1.1.0" />
-        <import addon="resource.images.arctic.weather" version="1.0.4" />
+        <import addon="resource.images.arctic.splash" version="1.1.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
-        <import addon="resource.images.arctic.backgrounds.surrealist" version="1.0.2" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
