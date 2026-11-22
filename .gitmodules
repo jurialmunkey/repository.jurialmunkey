@@ -117,3 +117,7 @@
 	path = repo/resource.images.arctic.backgrounds.masquerade
 	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.masquerade.git
 	branch = main
+[submodule "repo/resource.images.arctic.backgrounds.anime"]
+	path = repo/resource.images.arctic.backgrounds.anime
+	url = https://github.com/jurialmunkey/resource.images.arctic.backgrounds.anime.git
+	branch = main
