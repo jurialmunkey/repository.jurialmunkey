@@ -31,6 +31,16 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon><addon id="resource.images.arctic.backgrounds.anime" name="Arctic Backgrounds - Anime" version="1.0.0" provider-name="jurialmunkey">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0" />
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Anime backgrounds for Arctic</summary>
+        <description lang="en_GB">68 hand-painted anime-style backgrounds covering 41 content types and 27 genres. The 1920 x 1080 images use a shared charcoal-indigo canvas and consistent framing.</description>
+        <platform>all</platform>
+    </extension>
 </addon><addon id="resource.images.arctic.backgrounds.bauhaus" name="Arctic Backgrounds - Bauhaus" version="1.0.2" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
@@ -101,7 +111,7 @@
         <description lang="en_GB">68 illustrated Surrealist backgrounds covering 41 content types and 27 genres. All images are 1920 x 1080 JPEGs with centered figures and dark side space for blending.</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.1" provider-name="jurialmunkey">
+</addon><addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.1.3" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
